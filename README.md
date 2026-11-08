@@ -21,9 +21,13 @@ node to-pictorium-snapshot.mjs   # writes anime-filler-own-map.json
 ```
 
 Copy the snapshot into Pictorium's `src/generated/` as a **separate file** next
-to its CC BY 4.0 snapshot, and load it as a fallback in
-`src/lib/anime-filler.ts`. Never merge the two files at runtime. Then enable the
-Filler banner in the miniature settings.
+to its CC BY 4.0 snapshot, and load it as the **preferred source** in
+`src/lib/anime-filler.ts` (the CC BY 4.0 snapshot is the fallback). Never merge
+the two files at runtime. Then enable the Filler banner in the miniature
+settings.
+
+Pictorium refreshes this snapshot at runtime by default (every 24 hours) from
+the public raw URL; set `PICTORIUM_FILLER_OWN_URL=off` to disable it.
 
 Only anime with a TV TMDB id and exact `1..totalEpisodes` coverage are emitted.
 
