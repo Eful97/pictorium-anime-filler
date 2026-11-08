@@ -22,6 +22,23 @@ export const STATUS_CODES = ["canon", "filler", "mixed"];
 export const REVIEW_STATUSES = ["needs-review", "verified"];
 export const EXPECTED_TITLE_COUNT = 364;
 
+/**
+ * Flags that declare a title's `episodes[]` as RAW anime_filler.md range rows
+ * (zero-based runs, offset starts, partial/unknown runs, out-of-bounds or
+ * duplicated md ranges) instead of a normalized 1..N list. Flagged rows are
+ * validated structurally; the strict 1..N gate applies only to unflagged rows.
+ */
+export const RAW_NUMBERING_FLAGS = [
+  "numbering-zero-based",
+  "numbering-offset-start",
+  "partial-unknownRanges",
+  "md-zero-based-ranges",
+];
+export const RAW_NUMBERING_FLAG_PREFIXES = [
+  "md-range-",
+  "md-duplicate-range-numbers",
+];
+
 function isPlainObject(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
@@ -47,6 +64,15 @@ function contaminationIsClean(value) {
     isPlainObject(value) &&
     value.aflHtml === false &&
     value.skipthefillerPages === false
+  );
+}
+
+function hasRawNumberingFlags(review) {
+  if (!isPlainObject(review) || !Array.isArray(review.flags)) return false;
+  return review.flags.some(
+    (flag) =>
+      RAW_NUMBERING_FLAGS.includes(flag) ||
+      RAW_NUMBERING_FLAG_PREFIXES.some((prefix) => flag.startsWith(prefix))
   );
 }
 
@@ -242,7 +268,8 @@ export function validateDatabase(db) {
       }
     }
 
-    // episodes: empty is valid; non-empty must be exactly 1..totalEpisodes.
+    // episodes: empty is valid. Non-empty rows are either a strict normalized
+    // 1..N list or a raw anime_filler.md range declared by review flags.
     if (!Array.isArray(title.episodes)) {
       err(`${label}: episodes must be an array`);
       return;
@@ -253,6 +280,7 @@ export function validateDatabase(db) {
       return;
     }
 
+    const rawNumbering = hasRawNumberingFlags(title.review);
     const seenNumbers = new Set();
     title.episodes.forEach((episode, episodeIndex) => {
       const epLabel = `${label}.episodes[${episodeIndex}]`;
@@ -260,28 +288,40 @@ export function validateDatabase(db) {
         err(`${epLabel}: must be an object`);
         return;
       }
-      const number = episode.n;
-      if (!isPositiveInteger(number)) {
-        err(
-          `${epLabel}: n must be a positive integer (zero-based numbering is invalid)`
-        );
-        return;
+      const number = episode.number;
+      if (rawNumbering) {
+        if (!isNonNegativeInteger(number)) {
+          err(
+            `${epLabel}: number must be a non-negative integer in flagged raw rows`
+          );
+          return;
+        }
+      } else {
+        if (!isPositiveInteger(number)) {
+          err(
+            `${epLabel}: number must be a positive integer (zero-based numbering is invalid)`
+          );
+          return;
+        }
+        if (number > title.totalEpisodes) {
+          err(
+            `${epLabel}: number ${number} exceeds totalEpisodes ${title.totalEpisodes}`
+          );
+        }
+        if (seenNumbers.has(number)) {
+          err(`${epLabel}: duplicate episode number ${number}`);
+        }
+        seenNumbers.add(number);
       }
-      if (number > title.totalEpisodes) {
+      if (!STATUS_CODES.includes(episode.status)) {
         err(
-          `${epLabel}: n ${number} exceeds totalEpisodes ${title.totalEpisodes}`
-        );
-      }
-      if (seenNumbers.has(number)) {
-        err(`${epLabel}: duplicate episode number ${number}`);
-      }
-      seenNumbers.add(number);
-      if (!STATUS_CODES.includes(episode.type)) {
-        err(
-          `${epLabel}: type must be one of ${STATUS_CODES.join(
+          `${epLabel}: status must be one of ${STATUS_CODES.join(
             "|"
-          )}, got ${JSON.stringify(episode.type)}`
+          )}, got ${JSON.stringify(episode.status)}`
         );
+      }
+      if (typeof episode.kind !== "string" || episode.kind.trim() === "") {
+        err(`${epLabel}: kind must be a non-empty string`);
       }
       if (episode.title !== undefined && typeof episode.title !== "string") {
         err(`${epLabel}: title must be a string when present`);
@@ -297,6 +337,8 @@ export function validateDatabase(db) {
         err(`${epLabel}: airDate must be null or a YYYY-MM-DD string`);
       }
     });
+
+    if (rawNumbering) return;
 
     const missing = [];
     for (let number = 1; number <= title.totalEpisodes; number += 1) {

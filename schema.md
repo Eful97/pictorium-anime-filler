@@ -11,8 +11,10 @@ integration is performed in this task** — no snapshot regeneration, no
 Vendoring or submodule consumption is a future consumer decision, documented in
 `README.md` only as an option.
 
-Current status: **364 title stubs, zero episode rows, everything
-`needs-review`**. No `episodes[]` array is populated and no source is pinned.
+Current status: **364 titles, 19,625 episode rows imported from
+`anime_filler.md`, 20 rows with MAL/TMDB ids, everything `needs-review`**. No
+source revision is pinned (`sourceRevision` is `null`) and no MAL/TMDB id is
+verified upstream.
 
 ## Source priority for future imports
 
@@ -23,7 +25,8 @@ line, while `out_json` collapses anime-canon into its `canonNumbers` set in the
 row data (anime canon survives only as a per-row `subtype` hint, and 4,559 rows
 have no subtype at all). `out_json` remains useful as a cross-check for declared
 totals and for titles without an md table, but it is not the primary range
-source. No rows are imported from either source by this scaffold.
+source. `anime_filler.md` is the imported range source; `out_json` remains a
+cross-check only.
 
 ## Top-level shape
 
@@ -42,7 +45,7 @@ source. No rows are imported from either source by this scaffold.
 | `schemaVersion` | integer | `1` |
 | `kind` | string | `"pictorium-own-filler-db"` |
 | `statusCodes` | string[] | exactly `["canon", "filler", "mixed"]` |
-| `sources` | array | `[]` while no source is confirmed |
+| `sources` | array | Source descriptors; currently `anime_filler.md` (markdown) |
 | `licenseBoundary.ownDb` | string | `"CC BY-SA 4.0"` |
 | `licenseBoundary.existingSnapshot` | string | `"CC BY 4.0 (separate)"` |
 | `contamination.aflHtml` | boolean | `false` |
@@ -59,7 +62,7 @@ source. No rows are imported from either source by this scaffold.
 | `totalEpisodes` | integer >= 0 | Declared episode count. |
 | `source` | string \| null | Provider/dump identifier, only after source + license are confirmed. |
 | `sourceRevision` | string \| null | Revision/version of the pinned source. |
-| `episodes` | array | Empty is valid. Non-empty must cover exactly `1..totalEpisodes`. |
+| `episodes` | array | Empty is valid. Non-empty rows are strict `1..totalEpisodes` lists, except titles carrying a raw-numbering review flag (see below). |
 | `updatedAt` | ISO string | Last edit timestamp. |
 | `review.status` | string | `needs-review` or `verified`. |
 | `review.flags` | string[] | Diagnostic flags; see below. |
@@ -69,25 +72,33 @@ source. No rows are imported from either source by this scaffold.
 ### `episodes[]` (when populated)
 
 ```json
-{ "n": 1, "title": "Episode title (optional)", "airDate": "2024-01-01", "type": "canon" }
+{ "number": 1, "status": "canon", "kind": "manga-canon" }
 ```
 
 | Field | Type | Notes |
 |---|---|---|
-| `n` | positive integer | Absolute episode number, 1-based. |
-| `title` | string (optional) | Episode title when known. |
-| `airDate` | `YYYY-MM-DD` string \| null (optional) | Air date when known. |
-| `type` | string | One of `canon`, `filler`, `mixed`. |
+| `number` | integer | Absolute episode number. Strict rows are 1-based (`1..totalEpisodes`); flagged raw rows preserve the source number verbatim (may be 0 or outside the declared total). |
+| `status` | string | `canon`, `filler`, or `mixed` — the schema v1 classification. |
+| `kind` | string | Informational source split: `manga-canon`, `anime-canon`, `mixed`, or `filler`. Never used as the classification code. |
 
-`type` vocabulary for schema v1:
+`status` vocabulary for schema v1:
 
 - `canon` — the manga-canon family, including what `anime_filler.md` labels
-  "Anime Canon". The md split is preserved for future import, but the db type
-  stays `canon` until schema v2 adds a distinct anime-canon code.
+  "Anime Canon".
 - `filler`
 - `mixed` — Mixed Canon/Filler.
 
-Do not emit `anime` as an episode `type` in v1.
+`kind` preserves the `anime_filler.md` split (notably `anime-canon`) as
+metadata; do not emit `anime` as an episode `status`. Do not substitute `kind`
+for `status`.
+
+**Raw-numbering rows (flag-gated):** `anime_filler.md` tables keep their source
+numbering. Titles whose `review.flags` contain `numbering-zero-based`,
+`numbering-offset-start`, `partial-unknownRanges`, `md-zero-based-ranges`, a
+`md-range-*` flag, or `md-duplicate-range-numbers` are validated structurally
+only: `number` must be a non-negative integer, `status`/`kind` must be valid.
+For every other title the strict `1..totalEpisodes` gap-free, unique, positive
+rule applies.
 
 ## Invariants (enforced by `validate-db.mjs`)
 
@@ -99,11 +110,13 @@ Do not emit `anime` as an episode `type` in v1.
 4. Slugs are unique; non-null MAL/TMDB ids are unique.
 5. `episodes: []` is valid for any `totalEpisodes`.
 6. Non-empty `episodes` must:
-   - have positive integer `n`;
-   - contain no duplicate numbers;
-   - stay within `1..totalEpisodes`;
-   - cover every number in `1..totalEpisodes` with no gaps;
-   - use a valid `type`.
+   - use a non-empty string `kind` and a valid `status`;
+   - on titles without a raw-numbering review flag: positive integer
+     `number`, no duplicates, within `1..totalEpisodes`, covering every
+     number in `1..totalEpisodes` with no gaps;
+   - on titles carrying a raw-numbering review flag: non-negative integer
+     `number`; source numbering, bounds, gaps and duplicates are reviewed via
+     the flag instead of being enforced.
 7. `review.status` is `needs-review` or `verified`.
 8. No row is `verified` without a pinned `source` + `sourceRevision` and a
    second-signal review.
@@ -120,7 +133,7 @@ Original audit flags:
 | `partial-unknownRanges` | Declared total is the classified count while larger ranges are unknown. | 12 |
 | `no-episodes-extracted` / `source-not-pinned` | Baseline for otherwise unflagged rows. | 306 rows (generic only) |
 
-Markdown cross-check flags (diagnostic only; no rows imported):
+Markdown cross-check flags (diagnostic; imported rows keep these flags):
 
 | Flag | Meaning | Current count |
 |---|---|---|
@@ -133,6 +146,19 @@ Markdown cross-check flags (diagnostic only; no rows imported):
 | `md-duplicate-range-numbers:<n>` | A number appears more than once across md segments. | 2 |
 | `md-zero-based-ranges` | md ranges include episode 0. | 6 |
 | `md-title-not-found` | No md heading matches the db content title. | 0 |
+
+Import and identity flags (2026-11-08):
+
+| Flag | Meaning | Current count |
+|---|---|---|
+| `episodes-from-md` | Episode rows were expanded from the title's `anime_filler.md` table. | 364 |
+| `ids-unverified-upstream` | MAL/TMDB ids came from AniZip/search, not an upstream-confirmed mapping. | 20 |
+| `tmdb-sum-mismatch:<tmdb>vs<db>` | TMDB regular-season sum differs from the declared `totalEpisodes`. | 9 |
+| `tmdb-id-from-search` | TMDB id resolved via verified search instead of AniZip. | 1 |
+
+`md-split-available` and `episodes-from-md` are present on every title because
+the whole DB now comes from the md tables; they are not evidence of a
+normalized episode list.
 
 The eight "Nessuna tabella" md headings are **not** db titles:
 `Dragon Ball OVAs`, `Ghost in the Shell: SAC_2045`, `Initial D Third Stage`,

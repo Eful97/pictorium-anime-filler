@@ -51,12 +51,60 @@ test("non-empty episodes covering 1..N are valid", () => {
     const title = db.titles[0];
     title.totalEpisodes = 3;
     title.episodes = [
-      { n: 1, type: "canon" },
-      { n: 2, type: "mixed" },
-      { n: 3, type: "filler" },
+      { number: 1, status: "canon", kind: "manga-canon" },
+      { number: 2, status: "mixed", kind: "mixed" },
+      { number: 3, status: "filler", kind: "filler" },
     ];
   });
   assert.deepEqual(errors, []);
+});
+
+test("number/status/kind shape is valid and anime-canon is allowed as kind", () => {
+  const errors = errorsAfter((db) => {
+    const title = db.titles[0];
+    title.totalEpisodes = 3;
+    title.episodes = [
+      { number: 1, status: "canon", kind: "manga-canon" },
+      { number: 2, status: "canon", kind: "anime-canon" },
+      { number: 3, status: "filler", kind: "filler" },
+    ];
+  });
+  assert.deepEqual(errors, []);
+});
+
+test("flagged raw-numbering rows may keep 0-based, out-of-range, gapped numbers", () => {
+  const errors = errorsAfter((db) => {
+    const title = db.titles[0];
+    title.review.flags.push("numbering-zero-based");
+    title.totalEpisodes = 3;
+    title.episodes = [
+      { number: 0, status: "canon", kind: "manga-canon" },
+      { number: 1, status: "canon", kind: "manga-canon" },
+      { number: 5, status: "filler", kind: "filler" },
+    ];
+  });
+  assert.deepEqual(errors, []);
+});
+
+test("unflagged rows still require a gap-free 1..N run", () => {
+  const errors = errorsAfter((db) => {
+    const title = db.titles[0];
+    title.totalEpisodes = 3;
+    title.episodes = [
+      { number: 1, status: "canon", kind: "manga-canon" },
+      { number: 3, status: "filler", kind: "filler" },
+    ];
+  });
+  expectError(errors, /must cover 1\.\.3 gap-free; missing 1 \(2\)/);
+});
+
+test("kind must be a non-empty string", () => {
+  const errors = errorsAfter((db) => {
+    const title = db.titles[0];
+    title.totalEpisodes = 1;
+    title.episodes = [{ number: 1, status: "canon", kind: "" }];
+  });
+  expectError(errors, /kind must be a non-empty string/);
 });
 
 test("duplicate slugs are rejected", () => {
@@ -71,22 +119,22 @@ test("episode gaps are rejected", () => {
     const title = db.titles[0];
     title.totalEpisodes = 4;
     title.episodes = [
-      { n: 1, type: "canon" },
-      { n: 2, type: "canon" },
-      { n: 4, type: "filler" },
+      { number: 1, status: "canon", kind: "manga-canon" },
+      { number: 2, status: "canon", kind: "manga-canon" },
+      { number: 4, status: "filler", kind: "filler" },
     ];
   });
   expectError(errors, /must cover 1\.\.4 gap-free; missing 1/);
 });
 
-test("zero-based episode numbering is rejected", () => {
+test("zero-based episode numbering is rejected on unflagged rows", () => {
   const errors = errorsAfter((db) => {
     const title = db.titles[0];
     title.totalEpisodes = 3;
     title.episodes = [
-      { n: 0, type: "canon" },
-      { n: 1, type: "canon" },
-      { n: 2, type: "filler" },
+      { number: 0, status: "canon", kind: "manga-canon" },
+      { number: 1, status: "canon", kind: "manga-canon" },
+      { number: 2, status: "filler", kind: "filler" },
     ];
   });
   expectError(errors, /positive integer.*zero-based/);
@@ -111,13 +159,13 @@ test("a wrong titles count is rejected", () => {
   expectError(errors, /expected 364 entries, got 363/);
 });
 
-test("episode type must stay canon|filler|mixed (anime-canon is not a v1 type)", () => {
+test("episode status must stay canon|filler|mixed (anime-canon belongs to kind)", () => {
   const errors = errorsAfter((db) => {
     const title = db.titles[0];
     title.totalEpisodes = 1;
-    title.episodes = [{ n: 1, type: "anime" }];
+    title.episodes = [{ number: 1, status: "anime", kind: "anime-canon" }];
   });
-  expectError(errors, /type must be one of canon\|filler\|mixed/);
+  expectError(errors, /status must be one of canon\|filler\|mixed/);
 });
 
 test("verified rows require a pinned source and sourceRevision", () => {
@@ -125,7 +173,7 @@ test("verified rows require a pinned source and sourceRevision", () => {
     const title = db.titles[0];
     title.review.status = "verified";
     title.totalEpisodes = 1;
-    title.episodes = [{ n: 1, type: "canon" }];
+    title.episodes = [{ number: 1, status: "canon", kind: "manga-canon" }];
   });
   expectError(errors, /verified rows require a pinned source/);
   expectError(errors, /verified rows require a pinned sourceRevision/);
