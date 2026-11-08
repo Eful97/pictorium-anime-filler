@@ -24,7 +24,7 @@ filler DB is not a scrape of those sites.
 
 ## Attribution placeholders
 
-The current `db.json` has **19,625 episode rows expanded from the local
+The current `db.json` has **15,239 episode rows expanded from the local
 `anime_filler.md` range list**. Titles, slugs, declared totals, and diagnostic
 flags derive from the same local audit inputs. The origin, revision and license
 of `anime_filler.md` are still unpinned (see below), so the rows remain

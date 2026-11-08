@@ -1,119 +1,55 @@
 name: Add series
-description: Request one anime series for the own filler DB. Title and N are enough; ranges are curated by the maintainer.
+description: Request one anime for the filler database.
 title: "[Add series] "
 labels: []
 body:
   - type: markdown
     attributes:
       value: |
-        Use this form for **one series per issue**. Films, OVAs, OADs, specials,
-        and movies are out of scope. Do not paste AFL HTML or SkipTheFiller
-        pages. The maintainer reviews identity, the TMDB regular-season sum,
-        and source/license before any row is published.
-
-        For a title-only request, provide the series title and N. Leave ranges
-        blank; precompiled filler/mixed ranges are not required.
+        One anime per issue. The title and episode count are enough; ids and
+        ranges are optional.
 
   - type: input
     id: series_title
     attributes:
-      label: Series title
-      description: Content title as used in anime_filler.md.
-      placeholder: "e.g. Another"
+      label: Anime title
+      placeholder: "e.g. Frieren: Beyond Journey's End"
     validations:
       required: true
 
   - type: input
     id: mal_id
     attributes:
-      label: MAL ID (optional)
-      description: Leave blank if not verified. Do not guess.
-      placeholder: "e.g. 11757"
+      label: MAL id (optional)
+      description: Leave empty if you do not know it.
+      placeholder: "e.g. 52991"
+
+  - type: input
+    id: tmdb_id
+    attributes:
+      label: TMDB id (optional)
+      description: The TV series id.
+      placeholder: "e.g. 209867"
 
   - type: input
     id: total_episodes
     attributes:
-      label: Total episodes (N)
-      description: TMDB regular-season episode-count sum; season 0/specials excluded. Suggestion only until the maintainer rechecks.
-      placeholder: "e.g. 13"
+      label: Episodes
+      description: Regular seasons only (exclude specials).
+      placeholder: "e.g. 28"
     validations:
       required: true
 
   - type: textarea
-    id: filler_ranges
-    attributes:
-      label: Filler ranges
-      description: Optional. Leave blank for a title-only request; no precompiled ranges needed.
-      placeholder: "e.g. 8, 13-14, 17-19"
-    validations:
-      required: false
-
-  - type: textarea
-    id: mixed_ranges
-    attributes:
-      label: Mixed ranges (optional)
-      description: Optional Mixed Canon/Filler ranges.
-      placeholder: "e.g. 2, 5-7"
-    validations:
-      required: false
-
-  - type: textarea
-    id: episode_titles
-    attributes:
-      label: Episode titles (optional)
-      description: One per line, prefixed with the absolute episode number.
-      placeholder: "1. Undertaker"
-    validations:
-      required: false
-
-  - type: input
     id: source
     attributes:
-      label: Source
-      description: Page/dataset identifier. Write TBD when requesting a title and no source is pinned yet.
-      placeholder: "e.g. Fandom episode list / direct viewing"
-    validations:
-      required: false
-
-  - type: textarea
-    id: source_attribution
-    attributes:
-      label: Source / attribution
-      description: URL or export, revision/version, retrieval date, and license/permission basis. Fill before publication.
-      placeholder: "URL, revision ID, retrieved 2026-11-08, license..."
-    validations:
-      required: false
-
-  - type: dropdown
-    id: run_status
-    attributes:
-      label: Ongoing or partial?
-      description: Ranges plus N must cover the same run, or declare the ongoing/partial window here.
-      options:
-        - "No - complete run"
-        - "Ongoing"
-        - "Partial / unknown ranges"
-    validations:
-      required: true
-
-  - type: textarea
-    id: notes
-    attributes:
-      label: Notes
-      description: Anything the maintainer should check (season split, films excluded, numbering quirks).
-    validations:
-      required: false
+      label: Source (optional)
+      description: A link or short note about where the classification comes from.
 
   - type: checkboxes
     id: confirmations
     attributes:
-      label: Confirmations
+      label: Confirmation
       options:
-        - label: This issue requests exactly one series (not a film/OVA/special/movie).
-          required: true
-        - label: Ranges (if provided) and N cover the same run, or the ongoing/partial window is declared.
-          required: true
-        - label: I did not copy AFL HTML or SkipTheFiller pages, and I am not requesting such a copy.
-          required: true
-        - label: Source and license are cited (or marked TBD), and I accept publication under CC BY-SA 4.0.
+        - label: This is one anime, and I did not copy AFL or SkipTheFiller content.
           required: true

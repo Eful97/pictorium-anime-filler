@@ -10,10 +10,10 @@ through the generated `anime-filler-own-map.json` snapshot (see
 `to-pictorium-snapshot.mjs`); nothing here writes to the Pictorium repository,
 and the two snapshots stay separate files with separate licenses.
 
-Current status: **364 titles, 19,625 episode rows imported from
-`anime_filler.md`, 300 MAL / 258 TMDB ids, everything `needs-review`**. No
-source revision is pinned (`sourceRevision` is `null`) and no MAL/TMDB id is
-verified upstream.
+Current status: **257 titles, 15,239 episode rows imported from
+`anime_filler.md`, all with MAL and TMDB ids, everything `needs-review`**. Only
+anime with both ids are kept in the database. No source revision is pinned
+(`sourceRevision` is `null`) and no id is verified upstream.
 
 ## Source priority for future imports
 
@@ -105,7 +105,7 @@ rule applies.
 1. `meta.kind`, `meta.schemaVersion`, `meta.statusCodes` are exact.
 2. Both contamination flags are `false`, in `meta` and in every
    `provenance.contamination`.
-3. `titles` has exactly **364** entries (the current baseline; bump the
+3. `titles` has exactly **257** entries (the current baseline; bump the
    validator constant deliberately if the dataset grows).
 4. Slugs are unique; non-null MAL/TMDB ids are unique.
 5. `episodes: []` is valid for any `totalEpisodes`.
@@ -127,23 +127,23 @@ Original audit flags:
 
 | Flag | Meaning | Current count |
 |---|---|---|
-| `slug-needs-rename` | Internal slug disagrees with the content title; original slug kept verbatim. | 41 |
+| `slug-needs-rename` | Internal slug disagrees with the content title; original slug kept verbatim. | 5 |
 | `numbering-zero-based` | Source rows start at 0. | 6 |
 | `numbering-offset-start` | Source rows start above 1. | 2 |
-| `partial-unknownRanges` | Declared total is the classified count while larger ranges are unknown. | 12 |
-| `no-episodes-extracted` / `source-not-pinned` | Baseline for otherwise unflagged rows. | 306 rows (generic only) |
+| `partial-unknownRanges` | Declared total is the classified count while larger ranges are unknown. | 7 |
+| `no-episodes-extracted` / `source-not-pinned` | Baseline for otherwise unflagged rows. | 239 rows (generic only) |
 
 Markdown cross-check flags (diagnostic; imported rows keep these flags):
 
 | Flag | Meaning | Current count |
 |---|---|---|
-| `md-split-available` | Title has a table in `anime_filler.md`. | 364 |
+| `md-split-available` | Title has a table in `anime_filler.md`. | 257 |
 | `md-no-table` | Title's md entry says "Nessuna tabella". | 0 db rows (8 md-only headings) |
 | `md-total-mismatch:<md>vs<json>` | md `Totale` differs from `out_json` total. | 0 |
-| `md-range-sum-mismatch:<sum>vs<total>` | Expanded range counts do not sum to md `Totale`. | 2 |
-| `md-range-coverage-gap:<n>` | Expanded ranges do not cover the full declared run. | 12 |
-| `md-range-out-of-bounds:<n>` | Ranges include numbers outside the declared run. | 12 |
-| `md-duplicate-range-numbers:<n>` | A number appears more than once across md segments. | 2 |
+| `md-range-sum-mismatch:<sum>vs<total>` | Expanded range counts do not sum to md `Totale`. | 0 |
+| `md-range-coverage-gap:<n>` | Expanded ranges do not cover the full declared run. | 7 |
+| `md-range-out-of-bounds:<n>` | Ranges include numbers outside the declared run. | 7 |
+| `md-duplicate-range-numbers:<n>` | A number appears more than once across md segments. | 0 |
 | `md-zero-based-ranges` | md ranges include episode 0. | 6 |
 | `md-title-not-found` | No md heading matches the db content title. | 0 |
 
@@ -151,15 +151,15 @@ Import and identity flags (2026-11-08):
 
 | Flag | Meaning | Current count |
 |---|---|---|
-| `episodes-from-md` | Episode rows were expanded from the title's `anime_filler.md` table. | 364 |
-| `ids-unverified-upstream` | MAL/TMDB ids came from AniZip/search, not an upstream-confirmed mapping. | 300 MAL / 258 TMDB |
-| `id-from-anilist-fribb` | Ids resolved by AniList title search + Fribb `anime-list-full.json`. | 281 |
-| `id-episode-mismatch:<ani>vs<db>` | AniList entry episode count differs from the db page (franchise/multi-season page). | 146 |
-| `tmdb-id-later-season:<n>` | TMDB id withheld because the match is season `n` (local 1-based numbering would be offset). MAL kept. | 36 |
-| `id-format-relaxed` | OVA/ONA page accepted for a TV-shaped title when the episode count matches. | 3 |
-| `id-ambiguous` / `id-not-found` / `id-format-mismatch` | Unresolved by the resolver; ids stay `null`. | 3 / 38 / 22 |
-| `mal-id-duplicate-of:<slug>` / `tmdb-id-duplicate-of:<slug>` | Id already owned by a canonical title; this page keeps `null`. | 1 |
-| `tmdb-id-rejected-relaxed:<sum>vs<db>` | Relaxed OVA/ONA match whose TMDB series has a different length; TMDB id removed. | varies |
+| `episodes-from-md` | Episode rows were expanded from the title's `anime_filler.md` table. | 257 |
+| `ids-unverified-upstream` | MAL/TMDB ids came from AniList search, not an upstream-confirmed mapping. | 257 (all with MAL + TMDB) |
+| `id-from-anilist-fribb` | Ids resolved by AniList title search + Fribb `anime-list-full.json`. | 237 |
+| `id-episode-mismatch:<ani>vs<db>` | AniList entry episode count differs from the db page (franchise/multi-season page). | 125 |
+| `tmdb-id-later-season:<n>` | TMDB id withheld because the match is season `n` (local 1-based numbering would be offset). MAL kept. | 0 |
+| `id-format-relaxed` | OVA/ONA page accepted for a TV-shaped title when the episode count matches. | 2 |
+| `id-ambiguous` / `id-not-found` / `id-format-mismatch` | Unresolved by the resolver; ids stay `null`. | 0 / 0 / 0 |
+| `mal-id-duplicate-of:<slug>` / `tmdb-id-duplicate-of:<slug>` | Id already owned by a canonical title; this page keeps `null`. | 0 |
+| `tmdb-id-rejected-relaxed:<sum>vs<db>` | Relaxed OVA/ONA match whose TMDB series has a different length; TMDB id removed. | 0 |
 | `tmdb-sum-match:<n>` / `tmdb-sum-mismatch:<sum>vs<db>` | TMDB regular-season sum compared with `totalEpisodes`. | 140 / 117 |
 | `tmdb-id-from-search` | TMDB id resolved via verified search instead of AniZip. | 1 |
 
@@ -173,7 +173,10 @@ The eight "Nessuna tabella" md headings are **not** db titles:
 `Shaman King`, `SHY`, `The One Piece`. They are reported as diagnostics only and
 must not be added as empty rows without a source/identity decision.
 
-## Markdown diagnostic summary (2026-11-08)
+## Markdown diagnostic summary (2026-11-08, source-level)
+
+Counts below describe the `anime_filler.md` source, before the database was
+pruned to mapped titles.
 
 - 372 `###` headings; 364 with tables; 8 with "Nessuna tabella".
 - 364 table titles; all 364 match an `out_json` content title exactly after

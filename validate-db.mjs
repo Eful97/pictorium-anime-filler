@@ -20,7 +20,7 @@ export const KIND = "pictorium-own-filler-db";
 export const SCHEMA_VERSION = 1;
 export const STATUS_CODES = ["canon", "filler", "mixed"];
 export const REVIEW_STATUSES = ["needs-review", "verified"];
-export const EXPECTED_TITLE_COUNT = 364;
+export const EXPECTED_TITLE_COUNT = 257;
 
 /**
  * Flags that declare a title's `episodes[]` as RAW anime_filler.md range rows

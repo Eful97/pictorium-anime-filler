@@ -1,13 +1,13 @@
 {
   "generatedAt": "2026-11-08T12:44:57.823Z",
   "counts": {
-    "pending": 344,
-    "matched": 281,
-    "tmdb": 258,
-    "malOnly": 36,
-    "ambiguous": 3,
-    "notFound": 38,
-    "formatMismatch": 22
+    "pending": 237,
+    "matched": 237,
+    "tmdb": 237,
+    "malOnly": 0,
+    "ambiguous": 0,
+    "notFound": 0,
+    "formatMismatch": 0
   },
   "items": [
     {
@@ -92,27 +92,6 @@
           "unique-name"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "ace-diamond-act-ii.json",
-      "slug": "ace-diamond-act-ii",
-      "title": "Ace of the Diamond: Act II",
-      "totalEpisodes": 52,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 105749,
-        "names": "Diamond no Ace act II / Ace of the Diamond act II",
-        "episodes": 52,
-        "format": "TV",
-        "year": 2019,
-        "malId": 38731,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ],
-        "seasonTmdb": 3
       }
     },
     {
@@ -368,27 +347,6 @@
       }
     },
     {
-      "file": "attack-titan-ova-0.json",
-      "slug": "attack-titan-ova-0",
-      "title": "Attack on Titan OADs",
-      "totalEpisodes": 8,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 16498,
-        "names": "Shingeki no Kyojin / Attack on Titan",
-        "episodes": 25,
-        "format": "TV",
-        "year": 2013,
-        "malId": 16498,
-        "tmdbId": 1429,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
-    },
-    {
       "file": "attack-titan.json",
       "slug": "attack-titan",
       "title": "Attack on Titan (Shingeki no Kyojin)",
@@ -408,13 +366,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "bakemonogatari.json",
-      "slug": "bakemonogatari",
-      "title": "Food Wars! OVAs",
-      "totalEpisodes": 5,
-      "status": "not-found"
     },
     {
       "file": "beastars.json",
@@ -480,34 +431,6 @@
       }
     },
     {
-      "file": "berserk-golden-age-arc-memorial-edition.json",
-      "slug": "berserk-golden-age-arc-memorial-edition",
-      "title": "Berserk: The Golden Age Arc - Memorial Edition",
-      "totalEpisodes": 6,
-      "status": "matched",
-      "chosen": {
-        "anilistId": 155011,
-        "names": "Berserk: Ougon Jidai-hen - MEMORIAL EDITION / Berserk: The Golden Age Arc - Memorial Edition",
-        "episodes": 13,
-        "format": "TV",
-        "year": 2022,
-        "malId": 52976,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
-      "file": "berserk-golden-age-arc.json",
-      "slug": "berserk-golden-age-arc",
-      "title": "Berserk: The Golden Age Arc",
-      "totalEpisodes": 3,
-      "status": "not-found"
-    },
-    {
       "file": "berserk.json",
       "slug": "berserk",
       "title": "Berserk (Berserk Kenpuden)",
@@ -526,55 +449,6 @@
           "episodes"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "beyblade-burst-all-seasons.json",
-      "slug": "beyblade-burst-all-seasons",
-      "title": "Black Butler OVAs",
-      "totalEpisodes": 9,
-      "status": "not-found"
-    },
-    {
-      "file": "beyblade-burst-god.json",
-      "slug": "beyblade-burst-god",
-      "title": "Beyblade Burst Evolution",
-      "totalEpisodes": 1,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 98289,
-        "names": "Beyblade Burst God / Beyblade Burst Evolution",
-        "episodes": 51,
-        "format": "TV",
-        "year": 2017,
-        "malId": 34901,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": 2
-      }
-    },
-    {
-      "file": "beyblade-burst-quadstrike.json",
-      "slug": "beyblade-burst-quadstrike",
-      "title": "Beyblade Burst QuadStrike",
-      "totalEpisodes": 26,
-      "status": "matched",
-      "chosen": {
-        "anilistId": 166062,
-        "names": "Beyblade Burst QuadStrike / Beyblade Burst QuadStrike",
-        "episodes": 26,
-        "format": "ONA",
-        "year": 2023,
-        "malId": 55231,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
       }
     },
     {
@@ -704,27 +578,6 @@
       }
     },
     {
-      "file": "bleach-thousand-year-blood-war.json",
-      "slug": "bleach-thousand-year-blood-war",
-      "title": "Bleach: Thousand-Year Blood War (Bleach: Sennen Kessen-hen)",
-      "totalEpisodes": 50,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 116674,
-        "names": "BLEACH: Sennen Kessen-hen / BLEACH: Thousand-Year Blood War",
-        "episodes": 13,
-        "format": "TV",
-        "year": 2022,
-        "malId": 41467,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": 2
-      }
-    },
-    {
       "file": "blood-blockade-battlefront.json",
       "slug": "blood-blockade-battlefront",
       "title": "Blood Blockade Battlefront (Kekkai Sensen)",
@@ -788,20 +641,6 @@
       }
     },
     {
-      "file": "blue-lock.json",
-      "slug": "blue-lock",
-      "title": "Black Clover Film",
-      "totalEpisodes": 1,
-      "status": "not-found"
-    },
-    {
-      "file": "blue-period.json",
-      "slug": "blue-period",
-      "title": "PSYCHO-PASS Films",
-      "totalEpisodes": 3,
-      "status": "not-found"
-    },
-    {
       "file": "bobobo-bo-bobo.json",
       "slug": "bobobo-bo-bobo",
       "title": "Bobobo-bo Bo-bobo",
@@ -821,36 +660,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "boruto-naruto-movie.json",
-      "slug": "boruto-naruto-movie",
-      "title": "Naruto Films",
-      "totalEpisodes": 11,
-      "status": "not-found"
-    },
-    {
-      "file": "boruto-naruto-next-generations-definitive-filler-list.json",
-      "slug": "boruto-naruto-next-generations-definitive-filler-list",
-      "title": "Boruto: Naruto Next Generations (Definitive)",
-      "totalEpisodes": 292,
-      "status": "ambiguous",
-      "candidates": [
-        {
-          "anilistId": 97938,
-          "names": "BORUTO: NARUTO NEXT GENERATIONS / Boruto: Naruto Next Generations",
-          "episodes": 293,
-          "format": "TV",
-          "year": 2017
-        },
-        {
-          "anilistId": 165523,
-          "names": "BORUTO: NARUTO NEXT GENERATIONS Part 2",
-          "episodes": null,
-          "format": "TV",
-          "year": null
-        }
-      ]
     },
     {
       "file": "boruto-naruto-next-generations-manga-canon.json",
@@ -1025,34 +834,6 @@
       "formatRelaxed": true
     },
     {
-      "file": "cells-work-code-black.json",
-      "slug": "cells-work-code-black",
-      "title": "Code Geass: Lelouch of the Rebellion Films",
-      "totalEpisodes": 4,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 1575,
-        "names": "Code Geass: Hangyaku no Lelouch / Code Geass: Lelouch of the Rebellion",
-        "episodes": 25,
-        "format": "TV",
-        "year": 2006,
-        "malId": 1575,
-        "tmdbId": 31724,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
-    },
-    {
-      "file": "cells-work.json",
-      "slug": "cells-work",
-      "title": "Code Geass: Lelouch of the Rebellion Special Edition",
-      "totalEpisodes": 2,
-      "status": "not-found"
-    },
-    {
       "file": "certain-magical-index.json",
       "slug": "certain-magical-index",
       "title": "A Certain Magical Index (Toaru Majutsu No Index)",
@@ -1113,58 +894,6 @@
           "episodes"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "chrono-crusade.json",
-      "slug": "chrono-crusade",
-      "title": "Thus Spoke Rohan Kishibe",
-      "totalEpisodes": 4,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 21778,
-        "names": "Kishibe Rohan wa Ugokanai / Thus Spoke Rohan Kishibe",
-        "episodes": 4,
-        "format": "OVA",
-        "year": 2017,
-        "malId": 33191,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name",
-          "format-relaxed"
-        ],
-        "relaxedFormat": true,
-        "seasonTmdb": 0
-      },
-      "formatRelaxed": true
-    },
-    {
-      "file": "city-hunter.json",
-      "slug": "city-hunter",
-      "title": "Noragami OVAs",
-      "totalEpisodes": 4,
-      "status": "not-found"
-    },
-    {
-      "file": "clannad-after-story.json",
-      "slug": "clannad-after-story",
-      "title": "Clannad: After Story",
-      "totalEpisodes": 25,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 4181,
-        "names": "CLANNAD: After Story / Clannad: After Story",
-        "episodes": 24,
-        "format": "TV",
-        "year": 2008,
-        "malId": 4181,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "format"
-        ],
-        "seasonTmdb": 2
       }
     },
     {
@@ -1315,27 +1044,6 @@
       }
     },
     {
-      "file": "d-gray-man.json",
-      "slug": "d-gray-man",
-      "title": "D.Gray-man",
-      "totalEpisodes": 116,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 1482,
-        "names": "D.Gray-man / D.Gray-man",
-        "episodes": 103,
-        "format": "TV",
-        "year": 2006,
-        "malId": 1482,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
       "file": "dagashi-kashi.json",
       "slug": "dagashi-kashi",
       "title": "Dagashi Kashi",
@@ -1483,27 +1191,6 @@
       }
     },
     {
-      "file": "demon-slayer-kimetsu-no-yaiba-movie-mugen-train.json",
-      "slug": "demon-slayer-kimetsu-no-yaiba-movie-mugen-train",
-      "title": "Demon Slayer: Kimetsu no Yaiba the Movie: Mugen Train",
-      "totalEpisodes": 1,
-      "status": "matched",
-      "chosen": {
-        "anilistId": 112151,
-        "names": "Kimetsu no Yaiba: Mugen Ressha-hen / Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
-        "episodes": 1,
-        "format": "MOVIE",
-        "year": 2020,
-        "malId": 40456,
-        "tmdbId": 635302,
-        "tmdbSide": "movie",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
       "file": "demon-slayer-kimetsu-no-yaiba.json",
       "slug": "demon-slayer-kimetsu-no-yaiba",
       "title": "Demon Slayer: Kimetsu no Yaiba",
@@ -1588,27 +1275,6 @@
       }
     },
     {
-      "file": "devilman-birth.json",
-      "slug": "devilman-birth",
-      "title": "Ghost In the Shell: Stand Alone Complex Films",
-      "totalEpisodes": 3,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 467,
-        "names": "Koukaku Kidoutai: STAND ALONE COMPLEX / Ghost in the Shell: Stand Alone Complex",
-        "episodes": 26,
-        "format": "TV",
-        "year": 2002,
-        "malId": 467,
-        "tmdbId": 1095,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
-    },
-    {
       "file": "devilman-crybaby.json",
       "slug": "devilman-crybaby",
       "title": "Devilman Crybaby",
@@ -1628,13 +1294,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "digimon-adventure-02.json",
-      "slug": "digimon-adventure-02",
-      "title": "Code Geass: Akito the Exiled",
-      "totalEpisodes": 5,
-      "status": "not-found"
     },
     {
       "file": "digimon-adventure-2020.json",
@@ -1658,13 +1317,6 @@
       }
     },
     {
-      "file": "digimon-adventure-tri.json",
-      "slug": "digimon-adventure-tri",
-      "title": "Digimon Adventure tri. Films",
-      "totalEpisodes": 6,
-      "status": "not-found"
-    },
-    {
       "file": "digimon-adventure.json",
       "slug": "digimon-adventure",
       "title": "Digimon Adventure",
@@ -1684,27 +1336,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "digimon-frontier.json",
-      "slug": "digimon-frontier",
-      "title": "Attack on Titan Films",
-      "totalEpisodes": 4,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 16498,
-        "names": "Shingeki no Kyojin / Attack on Titan",
-        "episodes": 25,
-        "format": "TV",
-        "year": 2013,
-        "malId": 16498,
-        "tmdbId": 1429,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
     },
     {
       "file": "don-t-toy-me-miss-nagatoro.json",
@@ -1770,69 +1401,6 @@
       }
     },
     {
-      "file": "dragon-ball-gt.json",
-      "slug": "dragon-ball-gt",
-      "title": "Dragon Ball GT",
-      "totalEpisodes": 65,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 225,
-        "names": "Dragon Ball GT / Dragon Ball GT",
-        "episodes": 64,
-        "format": "TV",
-        "year": 1996,
-        "malId": 225,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
-      "file": "dragon-ball-heroes.json",
-      "slug": "dragon-ball-heroes",
-      "title": "Super Dragon Ball Heroes",
-      "totalEpisodes": 40,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 102352,
-        "names": "Super Dragon Ball Heroes",
-        "episodes": 56,
-        "format": "ONA",
-        "year": 2018,
-        "malId": 37885,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
-      "file": "dragon-ball-super-broly-0.json",
-      "slug": "dragon-ball-super-broly-0",
-      "title": "Dragon Ball Super Films",
-      "totalEpisodes": 2,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 21175,
-        "names": "Dragon Ball Super / Dragon Ball Super",
-        "episodes": 131,
-        "format": "TV",
-        "year": 2015,
-        "malId": 30694,
-        "tmdbId": 62715,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
-    },
-    {
       "file": "dragon-ball-super-broly.json",
       "slug": "dragon-ball-super-broly",
       "title": "Dorohedoro",
@@ -1854,27 +1422,6 @@
       }
     },
     {
-      "file": "dragon-ball-super.json",
-      "slug": "dragon-ball-super",
-      "title": "Dragon Ball Super",
-      "totalEpisodes": 131,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 21175,
-        "names": "Dragon Ball Super / Dragon Ball Super",
-        "episodes": 131,
-        "format": "TV",
-        "year": 2015,
-        "malId": 30694,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
       "file": "dragon-ball-z-kai.json",
       "slug": "dragon-ball-z-kai",
       "title": "Dragon Ball Z Kai",
@@ -1893,27 +1440,6 @@
           "unique-name"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "dragon-ball.json",
-      "slug": "dragon-ball",
-      "title": "Dragon Ball",
-      "totalEpisodes": 153,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 223,
-        "names": "Dragon Ball / Dragon Ball",
-        "episodes": 153,
-        "format": "TV",
-        "year": 1986,
-        "malId": 223,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
       }
     },
     {
@@ -2296,27 +1822,6 @@
       }
     },
     {
-      "file": "fist-of-the-blue-sky-regenesis.json",
-      "slug": "fist-of-the-blue-sky-regenesis",
-      "title": "Fist of the Blue Sky: Regenesis",
-      "totalEpisodes": 12,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 100408,
-        "names": "Souten no Ken: REGENESIS / Fist of the Blue Sky: Regenesis",
-        "episodes": 12,
-        "format": "ONA",
-        "year": 2018,
-        "malId": 36655,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ],
-        "seasonTmdb": 2
-      }
-    },
-    {
       "file": "fist-of-the-blue-sky.json",
       "slug": "fist-of-the-blue-sky",
       "title": "Fist of the Blue Sky",
@@ -2336,48 +1841,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "food-wars-fifth-plate.json",
-      "slug": "food-wars-fifth-plate",
-      "title": "Black Clover OVAs",
-      "totalEpisodes": 2,
-      "status": "not-found"
-    },
-    {
-      "file": "food-wars-fourth-plate.json",
-      "slug": "food-wars-fourth-plate",
-      "title": "Bleach OVAs",
-      "totalEpisodes": 2,
-      "status": "not-found"
-    },
-    {
-      "file": "food-wars-second-plate-1.json",
-      "slug": "food-wars-second-plate-1",
-      "title": "Death Note: Relight",
-      "totalEpisodes": 2,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 2994,
-        "names": "DEATH NOTE Rewrite / Death Note: Relight",
-        "episodes": 2,
-        "format": "SPECIAL",
-        "year": 2007,
-        "malId": 2994,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format SPECIAL does not match the page type"
-    },
-    {
-      "file": "food-wars-third-plate-1.json",
-      "slug": "food-wars-third-plate-1",
-      "title": "Psycho-Pass: Extended Edition",
-      "totalEpisodes": 11,
-      "status": "not-found"
     },
     {
       "file": "fruits-basket-2001.json",
@@ -2527,48 +1990,6 @@
       }
     },
     {
-      "file": "gantz.json",
-      "slug": "gantz",
-      "title": "GANTZ",
-      "totalEpisodes": 26,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 384,
-        "names": "GANTZ / Gantz",
-        "episodes": 13,
-        "format": "TV",
-        "year": 2004,
-        "malId": 384,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
-      "file": "ghost-shell-arise.json",
-      "slug": "ghost-shell-arise",
-      "title": "Ghost in the Shell: Arise",
-      "totalEpisodes": 10,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 20776,
-        "names": "Koukaku Kidoutai ARISE Specials / Ghost in the Shell: Arise Specials",
-        "episodes": 4,
-        "format": "SPECIAL",
-        "year": 2013,
-        "malId": 21575,
-        "tmdbId": 62070,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ]
-      },
-      "reason": "AniList format SPECIAL does not match the page type"
-    },
-    {
       "file": "ghost-shell-stand-alone-complex.json",
       "slug": "ghost-shell-stand-alone-complex",
       "title": "Ghost In the Shell: Stand Alone Complex",
@@ -2587,27 +2008,6 @@
           "name-score"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "gintama.json",
-      "slug": "gintama",
-      "title": "Gintama",
-      "totalEpisodes": 369,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 918,
-        "names": "Gintama / Gintama",
-        "episodes": 201,
-        "format": "TV",
-        "year": 2006,
-        "malId": 918,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "shared-tmdb"
-        ],
-        "seasonTmdb": null
       }
     },
     {
@@ -2800,34 +2200,6 @@
       }
     },
     {
-      "file": "hajime-no-ippo-champion-road.json",
-      "slug": "hajime-no-ippo-champion-road",
-      "title": "Hajime no Ippo: Champion Road",
-      "totalEpisodes": 1,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 264,
-        "names": "Hajime no Ippo: Champion Road / Hajime no Ippo: The Fighting! - Champion Road",
-        "episodes": 1,
-        "format": "SPECIAL",
-        "year": 2003,
-        "malId": 264,
-        "tmdbId": 42705,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format SPECIAL does not match the page type"
-    },
-    {
-      "file": "hajime-no-ippo-mashiba-vs-kimura-execution.json",
-      "slug": "hajime-no-ippo-mashiba-vs-kimura-execution",
-      "title": "Hajime no Ippo: Mashiba vs. Kimura - Execution",
-      "totalEpisodes": 1,
-      "status": "not-found"
-    },
-    {
       "file": "hakyu-hoshin-engi.json",
       "slug": "hakyu-hoshin-engi",
       "title": "Hakyu Hoshin Engi",
@@ -2846,27 +2218,6 @@
           "unique-name"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "hanamonogatari.json",
-      "slug": "hanamonogatari",
-      "title": "Hanamonogatari",
-      "totalEpisodes": 5,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 20593,
-        "names": "Hanamonogatari / Hanamonogatari",
-        "episodes": 5,
-        "format": "TV",
-        "year": 2014,
-        "malId": 21855,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": 0
       }
     },
     {
@@ -2889,13 +2240,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "happy-go-lucky-days.json",
-      "slug": "happy-go-lucky-days",
-      "title": "DURARARA!! OADs",
-      "totalEpisodes": 4,
-      "status": "not-found"
     },
     {
       "file": "heavens-lost-property.json",
@@ -3070,27 +2414,6 @@
       }
     },
     {
-      "file": "hikaru-no-go.json",
-      "slug": "hikaru-no-go",
-      "title": "Hikaru no Go",
-      "totalEpisodes": 75,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 135,
-        "names": "Hikaru no Go / Hikaru no Go",
-        "episodes": 75,
-        "format": "TV",
-        "year": 2001,
-        "malId": 135,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
       "file": "hokuto-no-ken.json",
       "slug": "hokuto-no-ken",
       "title": "Fist of the North Star",
@@ -3132,92 +2455,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "hunter-x-hunter-2011-films.json",
-      "slug": "hunter-x-hunter-2011-films",
-      "title": "Hunter x Hunter (2011) Films",
-      "totalEpisodes": 2,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 11061,
-        "names": "HUNTER×HUNTER (2011) / Hunter x Hunter (2011)",
-        "episodes": 148,
-        "format": "TV",
-        "year": 2011,
-        "malId": 11061,
-        "tmdbId": 46298,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
-    },
-    {
-      "file": "hunter-x-hunter.json",
-      "slug": "hunter-x-hunter",
-      "title": "Hunter × Hunter (2011)",
-      "totalEpisodes": 148,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 11061,
-        "names": "HUNTER×HUNTER (2011) / Hunter x Hunter (2011)",
-        "episodes": 148,
-        "format": "TV",
-        "year": 2011,
-        "malId": 11061,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "episodes"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
-      "file": "initial-d-extra-stage-2.json",
-      "slug": "initial-d-extra-stage-2",
-      "title": "Initial D Extra Stage 2",
-      "totalEpisodes": 1,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 5228,
-        "names": "Initial D EXTRA STAGE 2",
-        "episodes": 1,
-        "format": "OVA",
-        "year": 2008,
-        "malId": 5228,
-        "tmdbId": [
-          34384
-        ],
-        "tmdbSide": "movie",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format OVA does not match the page type"
-    },
-    {
-      "file": "initial-d-extra-stage.json",
-      "slug": "initial-d-extra-stage",
-      "title": "Initial D Extra Stage",
-      "totalEpisodes": 2,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 822,
-        "names": "Initial D EXTRA STAGE / Initial D Extra Stage",
-        "episodes": 2,
-        "format": "OVA",
-        "year": 2000,
-        "malId": 822,
-        "tmdbId": 40424,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ]
-      },
-      "reason": "AniList format OVA does not match the page type"
     },
     {
       "file": "initial-d.json",
@@ -3304,71 +2541,6 @@
       }
     },
     {
-      "file": "jojos-biarre-adenture-ova.json",
-      "slug": "jojos-biarre-adenture-ova",
-      "title": "JoJo's Bizarre Adventure (1993)",
-      "totalEpisodes": 13,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 666,
-        "names": "JoJo no Kimyou na Bouken / JoJo's Bizarre Adventure",
-        "episodes": 6,
-        "format": "OVA",
-        "year": 1993,
-        "malId": 666,
-        "tmdbId": 60862,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ]
-      },
-      "reason": "AniList format OVA does not match the page type"
-    },
-    {
-      "file": "jojos-bizarre-adventure-tv.json",
-      "slug": "jojos-bizarre-adventure-tv",
-      "title": "JoJo's Bizarre Adventure",
-      "totalEpisodes": 190,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 666,
-        "names": "JoJo no Kimyou na Bouken / JoJo's Bizarre Adventure",
-        "episodes": 6,
-        "format": "OVA",
-        "year": 1993,
-        "malId": 666,
-        "tmdbId": 60862,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ]
-      },
-      "reason": "AniList format OVA does not match the page type"
-    },
-    {
-      "file": "jujutsu-kaisen-0-movie.json",
-      "slug": "jujutsu-kaisen-0-movie",
-      "title": "Jujutsu Kaisen 0",
-      "totalEpisodes": 1,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 131573,
-        "names": "Jujutsu Kaisen 0 / JUJUTSU KAISEN 0",
-        "episodes": 1,
-        "format": "MOVIE",
-        "year": 2021,
-        "malId": 48561,
-        "tmdbId": [
-          810693
-        ],
-        "tmdbSide": "movie",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format MOVIE does not match the page type"
-    },
-    {
       "file": "jujutsu-kaisen.json",
       "slug": "jujutsu-kaisen",
       "title": "JUJUTSU KAISEN",
@@ -3388,27 +2560,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "k-seven-stories.json",
-      "slug": "k-seven-stories",
-      "title": "K: Seven Stories",
-      "totalEpisodes": 6,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 109670,
-        "names": "K: Seven Stories - The Idol K",
-        "episodes": 6,
-        "format": "SPECIAL",
-        "year": 2018,
-        "malId": 37308,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "name-score"
-        ]
-      },
-      "reason": "AniList format SPECIAL does not match the page type"
     },
     {
       "file": "k.json",
@@ -3454,27 +2605,6 @@
       }
     },
     {
-      "file": "kaguya-sama-love-war-ovas.json",
-      "slug": "kaguya-sama-love-war-ovas",
-      "title": "Kaguya-sama: Love is War OVAs",
-      "totalEpisodes": 2,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 101921,
-        "names": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen / Kaguya-sama: Love is War",
-        "episodes": 12,
-        "format": "TV",
-        "year": 2019,
-        "malId": 37999,
-        "tmdbId": 83121,
-        "tmdbSide": "tv",
-        "evidence": [
-          "shared-tmdb"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
-    },
-    {
       "file": "kaguya-sama-love-war.json",
       "slug": "kaguya-sama-love-war",
       "title": "Kaguya-sama: Love is War",
@@ -3515,13 +2645,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "kakegurui.json",
-      "slug": "kakegurui",
-      "title": "Dragon Ball Films",
-      "totalEpisodes": 19,
-      "status": "not-found"
     },
     {
       "file": "kamisama-kiss.json",
@@ -3584,27 +2707,6 @@
           "unique-name"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "keroro-gunsou-sgtfrog.json",
-      "slug": "keroro-gunsou-sgtfrog",
-      "title": "Sgt. Frog (Keroro Gunsou)",
-      "totalEpisodes": 358,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 516,
-        "names": "Keroro Gunsou / Sgt. Frog",
-        "episodes": 358,
-        "format": "TV",
-        "year": 2004,
-        "malId": 516,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "episodes"
-        ],
-        "seasonTmdb": null
       }
     },
     {
@@ -3671,13 +2773,6 @@
       }
     },
     {
-      "file": "kinnikuman.json",
-      "slug": "kinnikuman",
-      "title": "Fairy Tail OVAs",
-      "totalEpisodes": 10,
-      "status": "not-found"
-    },
-    {
       "file": "kirby-right-back-ya.json",
       "slug": "kirby-right-back-ya",
       "title": "Kirby: Right Back at Ya! (Hoshi no Kābī)",
@@ -3718,13 +2813,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "kizumonogatari.json",
-      "slug": "kizumonogatari",
-      "title": "Kizumonogatari",
-      "totalEpisodes": 3,
-      "status": "not-found"
     },
     {
       "file": "komi-cant-communicate.json",
@@ -3811,34 +2899,6 @@
       }
     },
     {
-      "file": "love-ru-darkness.json",
-      "slug": "love-ru-darkness",
-      "title": "To Love Ru: Darkness",
-      "totalEpisodes": 26,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 13663,
-        "names": "To LOVE-Ru Darkness / To Love Ru Darkness",
-        "episodes": 12,
-        "format": "TV",
-        "year": 2012,
-        "malId": 13663,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ],
-        "seasonTmdb": 3
-      }
-    },
-    {
-      "file": "lupin-third-part-i.json",
-      "slug": "lupin-third-part-i",
-      "title": "Fairy Tail Films",
-      "totalEpisodes": 2,
-      "status": "not-found"
-    },
-    {
       "file": "madan-no-ou-vanadis-lord-marksman-and-vanadis.json",
       "slug": "madan-no-ou-vanadis-lord-marksman-and-vanadis",
       "title": "Lord Marksman and Vanadis (Madan No Ou to Vanadis)",
@@ -3921,27 +2981,6 @@
         ],
         "relaxedFormat": false,
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "magic-knight-rayearth.json",
-      "slug": "magic-knight-rayearth",
-      "title": "Magic Knight Rayearth",
-      "totalEpisodes": 49,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 435,
-        "names": "Magic Knight Rayearth / Magic Knight Rayearth",
-        "episodes": 20,
-        "format": "TV",
-        "year": 1994,
-        "malId": 435,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ],
-        "seasonTmdb": null
       }
     },
     {
@@ -4114,13 +3153,6 @@
       }
     },
     {
-      "file": "miraculous-ladybug.json",
-      "slug": "miraculous-ladybug",
-      "title": "Rebuild of Evangelion",
-      "totalEpisodes": 4,
-      "status": "not-found"
-    },
-    {
       "file": "miss-kobayashis-dragon-maid.json",
       "slug": "miss-kobayashis-dragon-maid",
       "title": "Miss Kobayashi's Dragon Maid",
@@ -4164,13 +3196,6 @@
       }
     },
     {
-      "file": "mobile-suit-gundam-zz.json",
-      "slug": "mobile-suit-gundam-zz",
-      "title": "Naruto OVAs",
-      "totalEpisodes": 13,
-      "status": "not-found"
-    },
-    {
       "file": "mobile-suit-gundam.json",
       "slug": "mobile-suit-gundam",
       "title": "Mobile Suit Gundam (Kidou Senshi Gundam)",
@@ -4190,41 +3215,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "mobile-suit-zeta-gundam.json",
-      "slug": "mobile-suit-zeta-gundam",
-      "title": "One Piece Specials",
-      "totalEpisodes": 26,
-      "status": "not-found"
-    },
-    {
-      "file": "monogatari-series-second-season.json",
-      "slug": "monogatari-series-second-season",
-      "title": "Monogatari Series Second Season",
-      "totalEpisodes": 23,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 17074,
-        "names": "Monogatari Series: Second Season / Monogatari Series Second Season",
-        "episodes": 26,
-        "format": "TV",
-        "year": 2013,
-        "malId": 17074,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": 3
-      }
-    },
-    {
-      "file": "monogatari-series.json",
-      "slug": "monogatari-series",
-      "title": "Monogatari",
-      "totalEpisodes": 100,
-      "status": "not-found"
     },
     {
       "file": "monster.json",
@@ -4267,27 +3257,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "my-hero-academia-movies.json",
-      "slug": "my-hero-academia-movies",
-      "title": "My Hero Academia Films",
-      "totalEpisodes": 3,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 21459,
-        "names": "Boku no Hero Academia / My Hero Academia",
-        "episodes": 13,
-        "format": "TV",
-        "year": 2016,
-        "malId": 31964,
-        "tmdbId": 65930,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
     },
     {
       "file": "my-hero-academia-vigilantes.json",
@@ -4395,69 +3364,6 @@
       }
     },
     {
-      "file": "naruto-movie-legend-stone-gelel.json",
-      "slug": "naruto-movie-legend-stone-gelel",
-      "title": "Sailor Moon Specials",
-      "totalEpisodes": 5,
-      "status": "not-found"
-    },
-    {
-      "file": "naruto-movie-ninja-clash-land-snow.json",
-      "slug": "naruto-movie-ninja-clash-land-snow",
-      "title": "Sailor Moon Films",
-      "totalEpisodes": 3,
-      "status": "not-found"
-    },
-    {
-      "file": "negima-ovaoad.json",
-      "slug": "negima-ovaoad",
-      "title": "Negima! OVAs",
-      "totalEpisodes": 9,
-      "status": "not-found"
-    },
-    {
-      "file": "nekomonogatari-kuro.json",
-      "slug": "nekomonogatari-kuro",
-      "title": "Ghost In the Shell Films",
-      "totalEpisodes": 4,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 43,
-        "names": "GHOST IN THE SHELL: Koukaku Kidoutai / Ghost in the Shell",
-        "episodes": 1,
-        "format": "MOVIE",
-        "year": 1995,
-        "malId": 43,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "format"
-        ],
-        "seasonTmdb": 0
-      }
-    },
-    {
-      "file": "neon-genesis-evangelion-films.json",
-      "slug": "neon-genesis-evangelion-films",
-      "title": "Neon Genesis Evangelion Films",
-      "totalEpisodes": 2,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 30,
-        "names": "Shin Seiki Evangelion / Neon Genesis Evangelion",
-        "episodes": 26,
-        "format": "TV",
-        "year": 1995,
-        "malId": 30,
-        "tmdbId": 890,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
-    },
-    {
       "file": "neon-genesis-evangelion.json",
       "slug": "neon-genesis-evangelion",
       "title": "Neon Genesis Evangelion",
@@ -4498,27 +3404,6 @@
         ],
         "relaxedFormat": false,
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "nisemonogatari.json",
-      "slug": "nisemonogatari",
-      "title": "Nisemonogatari",
-      "totalEpisodes": 11,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 11597,
-        "names": "Nisemonogatari / Nisemonogatari",
-        "episodes": 11,
-        "format": "TV",
-        "year": 2012,
-        "malId": 11597,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": 2
       }
     },
     {
@@ -4586,55 +3471,6 @@
       }
     },
     {
-      "file": "one-pace.json",
-      "slug": "one-pace",
-      "title": "One Pace (One Piece)",
-      "totalEpisodes": 138,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 21,
-        "names": "ONE PIECE / ONE PIECE",
-        "episodes": null,
-        "format": "TV",
-        "year": 1999,
-        "malId": 21,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "format"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
-      "file": "one-piece-log-fish-man-island-saga.json",
-      "slug": "one-piece-log-fish-man-island-saga",
-      "title": "One Piece Log: Fish-Man Island Saga",
-      "totalEpisodes": 6,
-      "status": "matched",
-      "chosen": {
-        "anilistId": 183423,
-        "names": "ONE PIECE: Gyojin Tou-hen / One Piece Log: Fish-Man Island Saga",
-        "episodes": 21,
-        "format": "TV",
-        "year": 2024,
-        "malId": 60108,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
-      "file": "one-piece-movies.json",
-      "slug": "one-piece-movies",
-      "title": "One Piece Films",
-      "totalEpisodes": 15,
-      "status": "not-found"
-    },
-    {
       "file": "one-punch-man.json",
       "slug": "one-punch-man",
       "title": "One-Punch Man",
@@ -4675,13 +3511,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "orient.json",
-      "slug": "orient",
-      "title": "School Rumble: Extra Class",
-      "totalEpisodes": 2,
-      "status": "not-found"
     },
     {
       "file": "ouran-high-school-host-club.json",
@@ -4747,27 +3576,6 @@
       }
     },
     {
-      "file": "owarimonogatari.json",
-      "slug": "owarimonogatari",
-      "title": "Owarimonogatari",
-      "totalEpisodes": 9,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 21262,
-        "names": "Owarimonogatari / Owarimonogatari",
-        "episodes": 12,
-        "format": "TV",
-        "year": 2015,
-        "malId": 31181,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": 4
-      }
-    },
-    {
       "file": "parasyte-maxim.json",
       "slug": "parasyte-maxim",
       "title": "Parasyte: The Maxim (Kiseijuu)",
@@ -4829,111 +3637,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "pok-mon-advanced-generation.json",
-      "slug": "pok-mon-advanced-generation",
-      "title": "Pokémon Advanced Generation",
-      "totalEpisodes": 190,
-      "status": "not-found"
-    },
-    {
-      "file": "pok-mon-black-and-white.json",
-      "slug": "pok-mon-black-and-white",
-      "title": "Fullmetal Alchemist OVAs",
-      "totalEpisodes": 5,
-      "status": "not-found"
-    },
-    {
-      "file": "pok-mon-diamond-and-pearl.json",
-      "slug": "pok-mon-diamond-and-pearl",
-      "title": "Pokémon Diamond and Pearl",
-      "totalEpisodes": 91,
-      "status": "not-found"
-    },
-    {
-      "file": "pok-mon-journeys.json",
-      "slug": "pok-mon-journeys",
-      "title": "Bleach Films",
-      "totalEpisodes": 4,
-      "status": "not-found"
-    },
-    {
-      "file": "pok-mon-original-series.json",
-      "slug": "pok-mon-original-series",
-      "title": "Pokémon: Original series",
-      "totalEpisodes": 270,
-      "status": "not-found"
-    },
-    {
-      "file": "pok-mon-origins-0.json",
-      "slug": "pok-mon-origins-0",
-      "title": "Pokémon Origins  (Pocket Monsters: The Origin)",
-      "totalEpisodes": 4,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 20159,
-        "names": "Pocket Monsters: THE ORIGIN / Pokémon Origins",
-        "episodes": 4,
-        "format": "SPECIAL",
-        "year": 2013,
-        "malId": 20159,
-        "tmdbId": 61295,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format SPECIAL does not match the page type"
-    },
-    {
-      "file": "pok-mon-series-xyz.json",
-      "slug": "pok-mon-series-xyz",
-      "title": "My Hero Academia OVAs",
-      "totalEpisodes": 8,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 21459,
-        "names": "Boku no Hero Academia / My Hero Academia",
-        "episodes": 13,
-        "format": "TV",
-        "year": 2016,
-        "malId": 31964,
-        "tmdbId": 65930,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
-    },
-    {
-      "file": "pok-mon-sun-and-moon.json",
-      "slug": "pok-mon-sun-and-moon",
-      "title": "Fullmetal Alchemist Films",
-      "totalEpisodes": 2,
-      "status": "not-found"
-    },
-    {
-      "file": "pok-mon-x-and-y.json",
-      "slug": "pok-mon-x-and-y",
-      "title": "Fullmetal Alchemist: Brotherhood OVAs",
-      "totalEpisodes": 4,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 5114,
-        "names": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST / Fullmetal Alchemist: Brotherhood",
-        "episodes": 64,
-        "format": "TV",
-        "year": 2009,
-        "malId": 5114,
-        "tmdbId": 31911,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
     },
     {
       "file": "prince-tennis-0.json",
@@ -5042,27 +3745,6 @@
       }
     },
     {
-      "file": "puella-magi-madoka-magica-films.json",
-      "slug": "puella-magi-madoka-magica-films",
-      "title": "Puella Magi Madoka Magica Films",
-      "totalEpisodes": 4,
-      "status": "format-mismatch",
-      "chosen": {
-        "anilistId": 9756,
-        "names": "Mahou Shoujo Madoka☆Magica / Puella Magi Madoka Magica",
-        "episodes": 12,
-        "format": "TV",
-        "year": 2011,
-        "malId": 9756,
-        "tmdbId": 39218,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ]
-      },
-      "reason": "AniList format TV does not match the page type"
-    },
-    {
       "file": "puella-magi-madoka-magica.json",
       "slug": "puella-magi-madoka-magica",
       "title": "Puella Magi Madoka Magica",
@@ -5081,27 +3763,6 @@
           "unique-name"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "ranking-kings.json",
-      "slug": "ranking-kings",
-      "title": "Dragon Ball Specials",
-      "totalEpisodes": 5,
-      "status": "matched",
-      "chosen": {
-        "anilistId": 2520,
-        "names": "Dragon Ball Specials / Dragon Ball Specials",
-        "episodes": 2,
-        "format": "SPECIAL",
-        "year": 1988,
-        "malId": 2520,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
       }
     },
     {
@@ -5168,27 +3829,6 @@
       }
     },
     {
-      "file": "redo-healer.json",
-      "slug": "redo-healer",
-      "title": "Redo of Healer (Kaifuku Jutsushi no Yarinaoshi)",
-      "totalEpisodes": 12,
-      "status": "matched",
-      "chosen": {
-        "anilistId": 113425,
-        "names": "Kaifuku Jutsushi no Yarinaoshi / Redo of Healer",
-        "episodes": 12,
-        "format": "TV",
-        "year": 2021,
-        "malId": 40750,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
       "file": "relife.json",
       "slug": "relife",
       "title": "ReLIFE",
@@ -5228,27 +3868,6 @@
           "unique-name"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "revolutionary-girl-utena.json",
-      "slug": "revolutionary-girl-utena",
-      "title": "Revolutionary Girl Utena (Shoujo Kakumei Utena)",
-      "totalEpisodes": 39,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 440,
-        "names": "Shoujo Kakumei Utena / Revolutionary Girl Utena",
-        "episodes": 39,
-        "format": "TV",
-        "year": 1997,
-        "malId": 440,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
       }
     },
     {
@@ -5400,27 +4019,6 @@
       }
     },
     {
-      "file": "samurai-champloo.json",
-      "slug": "samurai-champloo",
-      "title": "Samurai Champloo",
-      "totalEpisodes": 26,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 205,
-        "names": "Samurai Champloo / Samurai Champloo",
-        "episodes": 26,
-        "format": "TV",
-        "year": 2004,
-        "malId": 205,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
       "file": "school-days.json",
       "slug": "school-days",
       "title": "School Rumble",
@@ -5440,13 +4038,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "seirei-tsukai-no-blade-dance.json",
-      "slug": "seirei-tsukai-no-blade-dance",
-      "title": "Gintama Films",
-      "totalEpisodes": 3,
-      "status": "not-found"
     },
     {
       "file": "seraph-end.json",
@@ -5701,27 +4292,6 @@
       }
     },
     {
-      "file": "slam-dunk-0.json",
-      "slug": "slam-dunk-0",
-      "title": "Slam Dunk",
-      "totalEpisodes": 101,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 170,
-        "names": "SLAM DUNK / Slam Dunk",
-        "episodes": 101,
-        "format": "TV",
-        "year": 1993,
-        "malId": 170,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "episodes"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
       "file": "soul-eater-not.json",
       "slug": "soul-eater-not",
       "title": "Soul Eater Not!",
@@ -5911,50 +4481,6 @@
       }
     },
     {
-      "file": "super-dragon-ball-heroes.json",
-      "slug": "super-dragon-ball-heroes",
-      "title": "PSYCHO-PASS: Sinners of the System",
-      "totalEpisodes": 3,
-      "status": "ambiguous",
-      "candidates": [
-        {
-          "anilistId": 102649,
-          "names": "PSYCHO-PASS Sinners of the System Case 1: Tsumi to Batsu / PSYCHO-PASS: Sinners of the System 1 - Crime and Punishment",
-          "episodes": 1,
-          "format": "MOVIE",
-          "year": 2019
-        },
-        {
-          "anilistId": 104990,
-          "names": "PSYCHO-PASS Sinners of the System Case 3: Onshuu no Kanata ni ____ / PSYCHO-PASS: Sinners of the System 3 - On the Other Side of Love and Hate",
-          "episodes": 1,
-          "format": "MOVIE",
-          "year": 2019
-        }
-      ]
-    },
-    {
-      "file": "sword-art-online-alicization.json",
-      "slug": "sword-art-online-alicization",
-      "title": "Sword Art Online: Alicization",
-      "totalEpisodes": 47,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 100182,
-        "names": "Sword Art Online: Alicization / Sword Art Online: Alicization",
-        "episodes": 24,
-        "format": "TV",
-        "year": 2018,
-        "malId": 36474,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": 3
-      }
-    },
-    {
       "file": "sword-art-online-alternative-ggo.json",
       "slug": "sword-art-online-alternative-ggo",
       "title": "Sword Art Online Alternative: Gun Gale Online",
@@ -6039,34 +4565,6 @@
       }
     },
     {
-      "file": "tokyo-ghoul-5.json",
-      "slug": "tokyo-ghoul-5",
-      "title": "Sailor Moon Crystal Films",
-      "totalEpisodes": 2,
-      "status": "not-found"
-    },
-    {
-      "file": "tokyo-ghoul-re-0.json",
-      "slug": "tokyo-ghoul-re-0",
-      "title": "Tokyo Ghoul:re",
-      "totalEpisodes": 24,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 100240,
-        "names": "Tokyo Ghoul:re / Tokyo Ghoul:re",
-        "episodes": 12,
-        "format": "TV",
-        "year": 2018,
-        "malId": 36511,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "name-score"
-        ],
-        "seasonTmdb": 3
-      }
-    },
-    {
       "file": "tokyo-ghoul.json",
       "slug": "tokyo-ghoul",
       "title": "Tokyo Ghoul",
@@ -6085,27 +4583,6 @@
           "unique-name"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "tokyo-mew-mew.json",
-      "slug": "tokyo-mew-mew",
-      "title": "Tokyo Mew Mew",
-      "totalEpisodes": 52,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 687,
-        "names": "Tokyo Mew Mew / Tokyo Mew Mew",
-        "episodes": 52,
-        "format": "TV",
-        "year": 2002,
-        "malId": 687,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
       }
     },
     {
@@ -6151,27 +4628,6 @@
       }
     },
     {
-      "file": "toriko.json",
-      "slug": "toriko",
-      "title": "Toriko",
-      "totalEpisodes": 147,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 10033,
-        "names": "Toriko",
-        "episodes": 147,
-        "format": "TV",
-        "year": 2011,
-        "malId": 10033,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
       "file": "tsugumomo.json",
       "slug": "tsugumomo",
       "title": "Tsugumomo",
@@ -6190,27 +4646,6 @@
           "unique-name"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "tsukimonogatari.json",
-      "slug": "tsukimonogatari",
-      "title": "Tsukimonogatari",
-      "totalEpisodes": 4,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 20918,
-        "names": "Tsukimonogatari / Tsukimonogatari",
-        "episodes": 4,
-        "format": "TV",
-        "year": 2014,
-        "malId": 28025,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": 0
       }
     },
     {
@@ -6319,27 +4754,6 @@
       }
     },
     {
-      "file": "we-never-learn-bokuben.json",
-      "slug": "we-never-learn-bokuben",
-      "title": "We Never Learn!: BOKUBEN (Bokutachi wa Benkyou ga Dekinai)",
-      "totalEpisodes": 17,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 110229,
-        "names": "Bokutachi wa Benkyou ga Dekinai! / We Never Learn!: BOKUBEN Season 2",
-        "episodes": 13,
-        "format": "TV",
-        "year": 2019,
-        "malId": 40004,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "shared-tmdb"
-        ],
-        "seasonTmdb": 2
-      }
-    },
-    {
       "file": "when-they-cry.json",
       "slug": "when-they-cry",
       "title": "Higurashi: When They Cry (Higurashi no naku koro ni)",
@@ -6402,13 +4816,6 @@
         ],
         "seasonTmdb": 1
       }
-    },
-    {
-      "file": "your-eternity-0.json",
-      "slug": "your-eternity-0",
-      "title": "One Piece OVAs",
-      "totalEpisodes": 3,
-      "status": "not-found"
     },
     {
       "file": "your-eternity.json",
@@ -6474,27 +4881,6 @@
       }
     },
     {
-      "file": "yu-gi-oh-5ds.json",
-      "slug": "yu-gi-oh-5ds",
-      "title": "Yu-Gi-Oh! 5D's",
-      "totalEpisodes": 154,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 3972,
-        "names": "Yu☆Gi☆Oh! 5D's / Yu-Gi-Oh! 5D's",
-        "episodes": 154,
-        "format": "TV",
-        "year": 2008,
-        "malId": 3972,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
       "file": "yu-gi-oh-arc-v.json",
       "slug": "yu-gi-oh-arc-v",
       "title": "Yu-Gi-Oh! ARC-V",
@@ -6513,112 +4899,6 @@
           "unique-name"
         ],
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "yu-gi-oh-capsule-monsters.json",
-      "slug": "yu-gi-oh-capsule-monsters",
-      "title": "Yu-Gi-Oh! Capsule Monsters",
-      "totalEpisodes": 12,
-      "status": "no-fribb-ids",
-      "chosen": {
-        "anilistId": 123074,
-        "names": "Yu☆Gi☆Oh! Duel Monsters ALEX / Yu-Gi-Oh! Capsule Monsters",
-        "episodes": 12,
-        "format": "TV",
-        "year": 2006,
-        "malId": null,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "unique-name"
-        ]
-      }
-    },
-    {
-      "file": "yu-gi-oh-films.json",
-      "slug": "yu-gi-oh-films",
-      "title": "Yu-Gi-Oh! Films",
-      "totalEpisodes": 3,
-      "status": "ambiguous",
-      "candidates": [
-        {
-          "anilistId": 550,
-          "names": "Yu☆Gi☆Oh!",
-          "episodes": 27,
-          "format": "TV",
-          "year": 1998
-        },
-        {
-          "anilistId": 481,
-          "names": "Yu☆Gi☆Oh! Duel Monsters / Yu-Gi-Oh!",
-          "episodes": 224,
-          "format": "TV",
-          "year": 2000
-        }
-      ]
-    },
-    {
-      "file": "yu-gi-oh-gx.json",
-      "slug": "yu-gi-oh-gx",
-      "title": "Yu-Gi-Oh! GX",
-      "totalEpisodes": 180,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 482,
-        "names": "Yu☆Gi☆Oh! Duel Monsters GX / Yu-Gi-Oh! GX",
-        "episodes": 180,
-        "format": "TV",
-        "year": 2004,
-        "malId": 482,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
-      "file": "yu-gi-oh-sevens.json",
-      "slug": "yu-gi-oh-sevens",
-      "title": "Yu-Gi-Oh! SEVENS",
-      "totalEpisodes": 4,
-      "status": "matched",
-      "chosen": {
-        "anilistId": 114072,
-        "names": "Yu☆Gi☆Oh! SEVENS / Yu-Gi-Oh! SEVENS",
-        "episodes": 92,
-        "format": "TV",
-        "year": 2020,
-        "malId": 40145,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
-      }
-    },
-    {
-      "file": "yu-gi-oh-vrains.json",
-      "slug": "yu-gi-oh-vrains",
-      "title": "Yu-Gi-Oh! VRAINS",
-      "totalEpisodes": 56,
-      "status": "matched",
-      "chosen": {
-        "anilistId": 98231,
-        "names": "Yu☆Gi☆Oh! VRAINS / Yu-Gi-Oh! VRAINS",
-        "episodes": 120,
-        "format": "TV",
-        "year": 2017,
-        "malId": 34866,
-        "tmdbId": null,
-        "tmdbSide": null,
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
       }
     },
     {
@@ -6704,27 +4984,6 @@
         ],
         "relaxedFormat": false,
         "seasonTmdb": 1
-      }
-    },
-    {
-      "file": "zatch-bell.json",
-      "slug": "zatch-bell",
-      "title": "Zatch Bell! (Konjiki no Gash Bell!!)",
-      "totalEpisodes": 150,
-      "status": "matched-mal-only",
-      "chosen": {
-        "anilistId": 250,
-        "names": "Konjiki no Gash Bell!! / Zatch Bell!",
-        "episodes": 150,
-        "format": "TV",
-        "year": 2003,
-        "malId": 250,
-        "tmdbId": null,
-        "tmdbSide": "tv",
-        "evidence": [
-          "unique-name"
-        ],
-        "seasonTmdb": null
       }
     },
     {
