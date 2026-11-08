@@ -1,6 +1,6 @@
 # Anime supportati
 
-257 anime con MAL e TMDB. 244 sono emessi nello snapshot Pictorium; i restanti 13 sono esclusi per anomalie di numerazione (segnalate nel DB).
+261 anime con MAL e TMDB. 248 sono emessi nello snapshot Pictorium; i restanti 13 sono esclusi per anomalie di numerazione (segnalate nel DB).
 
 | Titolo | Episodi | MAL | TMDB | Snapshot |
 |---|---:|---:|---:|:---:|
@@ -70,6 +70,8 @@
 | Dorohedoro | 12 | 38668 | 94404 | sì |
 | Dororo (2019) | 15 | 37520 | 83100 | sì |
 | Dr. STONE | 58 | 38691 | 86031 | sì |
+| Dragon Ball | 153 | 223 | 12609 | sì |
+| Dragon Ball Super | 131 | 30694 | 62715 | sì |
 | Dragon Ball Z | 291 | 813 | 12971 | sì |
 | Dragon Ball Z Kai | 166 | 6033 | 61709 | no |
 | DRAGON QUEST The Adventure of Dai (2020) | 17 | 40906 | 96884 | sì |
@@ -122,6 +124,7 @@
 | Highschool of the Dead | 13 | 8074 | 56998 | sì |
 | Higurashi: When They Cry (Higurashi no naku koro ni) | 62 | 934 | 25760 | sì |
 | Hunter × Hunter | 92 | 136 | 45952 | sì |
+| Hunter × Hunter (2011) | 148 | 11061 | 46298 | sì |
 | Initial D | 82 | 185 | 40424 | sì |
 | Inuyasha | 193 | 249 | 35610 | sì |
 | Inuyashiki Last Hero | 11 | 34542 | 73946 | sì |
@@ -186,7 +189,7 @@
 | Puella Magi Madoka Magica | 12 | 9756 | 39218 | sì |
 | Ranma ½ | 161 | 210 | 57706 | sì |
 | Rave Master (Groove Adventure Rave) | 51 | 246 | 37473 | sì |
-| Re:ZERO -Starting Life in Another World- (Re: Zero- Kara Hajimeru Isekai Seikatsu) | 50 | 31240 | 65942 | sì |
+| Re:ZERO -Starting Life in Another World- (Re: Zero- Kara Hajimeru Isekai Seikatsu) | 85 | 31240 | 65942 | sì |
 | Reborn! (Katekyō Hitman Reborn!) | 203 | 1604 | 45857 | sì |
 | Record of Ragnarok (Shuumatsu no Walküre) | 12 | 44942 | 114868 | sì |
 | ReLIFE | 17 | 30015 | 66941 | sì |
@@ -260,4 +263,5 @@
 | Yu-Gi-Oh! Duel Monsters | 225 | 481 | 902 | sì |
 | Yu-Gi-Oh! Zexal | 123 | 10015 | 45854 | sì |
 | YU-NO: A Girl Who Chants Love at the Bound of This World | 26 | 34620 | 87142 | sì |
+| Zatch Bell! (Konjiki no Gash Bell!!) | 150 | 250 | 35894 | sì |
 | Zom 100: Bucket List of the Dead | 9 | 54112 | 217766 | sì |

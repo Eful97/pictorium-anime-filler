@@ -6,9 +6,9 @@ episode thumbnails.
 
 ## Status
 
-- **257 anime** supported, all with MAL and TMDB ids.
-- **15,239 episode rows**.
-- **244 anime** are emitted in the Pictorium snapshot; the other 13 are skipped
+- **261 anime** supported, all with MAL and TMDB ids.
+- **15,856 episode rows**.
+- **248 anime** are emitted in the Pictorium snapshot; the other 13 are skipped
   because their episode numbering needs review.
 - Every title is `needs-review`: ids are resolved but not verified upstream.
 

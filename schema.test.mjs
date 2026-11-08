@@ -176,7 +176,7 @@ test("a wrong titles count is rejected", () => {
   const errors = errorsAfter((db) => {
     db.titles.pop();
   });
-  expectError(errors, /expected 257 entries, got 256/);
+  expectError(errors, /expected 261 entries, got 260/);
 });
 
 test("episode status must stay canon|filler|mixed (anime-canon belongs to kind)", () => {
@@ -226,7 +226,7 @@ test("CLI accepts db.json with exit code 0", () => {
   });
   assert.equal(result.status, 0, result.stderr);
   assert.match(result.stdout, /^OK /);
-  assert.match(result.stdout, /257 titles/);
+  assert.match(result.stdout, /261 titles/);
 });
 
 test("CLI reports an unreadable file as non-zero with a message", () => {

@@ -3,7 +3,7 @@
   "title": "Re:ZERO -Starting Life in Another World- (Re: Zero- Kara Hajimeru Isekai Seikatsu)",
   "malId": 31240,
   "tmdbId": 65942,
-  "totalEpisodes": 50,
+  "totalEpisodes": 85,
   "source": "anime_filler.md",
   "sourceRevision": null,
   "episodes": [
@@ -256,6 +256,181 @@
       "number": 50,
       "status": "canon",
       "kind": "manga-canon"
+    },
+    {
+      "number": 51,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 52,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 53,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 54,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 55,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 56,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 57,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 58,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 59,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 60,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 61,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 62,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 63,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 64,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 65,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 66,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 67,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 68,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 69,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 70,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 71,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 72,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 73,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 74,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 75,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 76,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 77,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 78,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 79,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 80,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 81,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 82,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 83,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 84,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 85,
+      "status": "canon",
+      "kind": "manga-canon"
     }
   ],
   "updatedAt": "2026-11-08T00:00:00.000Z",
@@ -267,8 +442,8 @@
       "episodes-from-md",
       "id-from-anilist-fribb",
       "ids-unverified-upstream",
-      "id-episode-mismatch:25vs50",
-      "tmdb-sum-mismatch:85vs50"
+      "id-episode-mismatch:25vs85",
+      "tmdb-sum-match:85"
     ]
   },
   "provenance": {

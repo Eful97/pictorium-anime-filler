@@ -10,7 +10,7 @@ through the generated `anime-filler-own-map.json` snapshot (see
 `to-pictorium-snapshot.mjs`); nothing here writes to the Pictorium repository,
 and the two snapshots stay separate files with separate licenses.
 
-Current status: **257 titles, 15,239 episode rows imported from
+Current status: **261 titles, 15,856 episode rows imported from
 `anime_filler.md`, all with MAL and TMDB ids, everything `needs-review`**. Only
 anime with both ids are kept in the database. No source revision is pinned
 (`sourceRevision` is `null`) and no id is verified upstream.
@@ -105,7 +105,7 @@ rule applies.
 1. `meta.kind`, `meta.schemaVersion`, `meta.statusCodes` are exact.
 2. Both contamination flags are `false`, in `meta` and in every
    `provenance.contamination`.
-3. `titles` has exactly **257** entries (the current baseline; bump the
+3. `titles` has exactly **261** entries (the current baseline; bump the
    validator constant deliberately if the dataset grows).
 4. Slugs are unique; non-null MAL/TMDB ids are unique.
 5. `episodes: []` is valid for any `totalEpisodes`.
@@ -131,13 +131,13 @@ Original audit flags:
 | `numbering-zero-based` | Source rows start at 0. | 6 |
 | `numbering-offset-start` | Source rows start above 1. | 2 |
 | `partial-unknownRanges` | Declared total is the classified count while larger ranges are unknown. | 7 |
-| `no-episodes-extracted` / `source-not-pinned` | Baseline for otherwise unflagged rows. | 239 rows (generic only) |
+| `no-episodes-extracted` / `source-not-pinned` | Baseline for otherwise unflagged rows. | 243 rows (generic only) |
 
 Markdown cross-check flags (diagnostic; imported rows keep these flags):
 
 | Flag | Meaning | Current count |
 |---|---|---|
-| `md-split-available` | Title has a table in `anime_filler.md`. | 257 |
+| `md-split-available` | Title has a table in `anime_filler.md`. | 261 |
 | `md-no-table` | Title's md entry says "Nessuna tabella". | 0 db rows (8 md-only headings) |
 | `md-total-mismatch:<md>vs<json>` | md `Totale` differs from `out_json` total. | 0 |
 | `md-range-sum-mismatch:<sum>vs<total>` | Expanded range counts do not sum to md `Totale`. | 0 |
@@ -151,16 +151,17 @@ Import and identity flags (2026-11-08):
 
 | Flag | Meaning | Current count |
 |---|---|---|
-| `episodes-from-md` | Episode rows were expanded from the title's `anime_filler.md` table. | 257 |
-| `ids-unverified-upstream` | MAL/TMDB ids came from AniList search, not an upstream-confirmed mapping. | 257 (all with MAL + TMDB) |
-| `id-from-anilist-fribb` | Ids resolved by AniList title search + Fribb `anime-list-full.json`. | 237 |
+| `episodes-from-md` | Episode rows were expanded from the title's `anime_filler.md` table. | 261 |
+| `ids-unverified-upstream` | MAL/TMDB ids came from AniList search or the CC BY 4.0 snapshot, not an upstream-confirmed mapping. | 261 (all with MAL + TMDB) |
+| `id-from-anilist-fribb` | Ids resolved by AniList title search + Fribb `anime-list-full.json`. | 241 |
+| `id-from-pictorium-primary` | TMDB id taken from Pictorium's CC BY 4.0 snapshot; episode rows stay from the own source. | 4 |
 | `id-episode-mismatch:<ani>vs<db>` | AniList entry episode count differs from the db page (franchise/multi-season page). | 125 |
-| `tmdb-id-later-season:<n>` | TMDB id withheld because the match is season `n` (local 1-based numbering would be offset). MAL kept. | 0 |
+| `tmdb-id-later-season:<n>` | TMDB id withheld because the match is season `n` (local 1-based numbering would be offset). MAL kept. | 4 |
 | `id-format-relaxed` | OVA/ONA page accepted for a TV-shaped title when the episode count matches. | 2 |
 | `id-ambiguous` / `id-not-found` / `id-format-mismatch` | Unresolved by the resolver; ids stay `null`. | 0 / 0 / 0 |
 | `mal-id-duplicate-of:<slug>` / `tmdb-id-duplicate-of:<slug>` | Id already owned by a canonical title; this page keeps `null`. | 0 |
 | `tmdb-id-rejected-relaxed:<sum>vs<db>` | Relaxed OVA/ONA match whose TMDB series has a different length; TMDB id removed. | 0 |
-| `tmdb-sum-match:<n>` / `tmdb-sum-mismatch:<sum>vs<db>` | TMDB regular-season sum compared with `totalEpisodes`. | 140 / 117 |
+| `tmdb-sum-match:<n>` / `tmdb-sum-mismatch:<sum>vs<db>` | TMDB regular-season sum compared with `totalEpisodes`. | 141 / 116 |
 | `tmdb-id-from-search` | TMDB id resolved via verified search instead of AniZip. | 1 |
 
 `md-split-available` and `episodes-from-md` are present on every title because

@@ -43,7 +43,7 @@ function title(slug, overrides = {}) {
 
 test("source tree reconstructs the committed db.json", () => {
   const db = loadSource(here);
-  assert.equal(db.titles.length, 257);
+  assert.equal(db.titles.length, 261);
   assert.equal(serializeDb(db), readFileSync(path.join(here, DB_FILE), "utf8"));
 });
 
