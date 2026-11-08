@@ -1,0 +1,44 @@
+# Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+Copyright (c) 2026 The pictorium-anime-filler contributors
+
+This work is intended to be licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License.
+
+License URL: https://creativecommons.org/licenses/by-sa/4.0/
+
+Legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+## Status of this file
+
+**PLACEHOLDER — the full legal code has not been vendored into this scaffold.**
+
+Before this repository is published or distributed, replace this file with the
+official CC BY-SA 4.0 legal code, or retain this notice together with an
+unmodified copy of the legal code at the URL above. Do not treat this placeholder
+as a substitute for the license text.
+
+## Scope
+
+This license applies to the own filler database in this repository: the
+compilation, the episode status classifications once populated, and the
+supporting documentation authored for this repository. It does **not** apply to
+third-party material, which remains subject to its own attribution and license
+terms recorded in `ATTRIBUTION.md`.
+
+The existing Pictorium filler snapshot is a separate artifact under CC BY 4.0
+and is not merged into this repository. See `ATTRIBUTION.md` for the license
+boundary.
+
+## Suggested attribution
+
+When sharing or adapting this database, include at least:
+
+- the title `pictorium-anime-filler`;
+- a link to this repository or to the CC BY-SA 4.0 license;
+- a notice that the work is licensed under CC BY-SA 4.0;
+- identification of any modifications;
+- the attribution notices required by `ATTRIBUTION.md` for third-party material.
+
+No warranty is provided. The data is a best-effort classification aid and may
+contain errors.

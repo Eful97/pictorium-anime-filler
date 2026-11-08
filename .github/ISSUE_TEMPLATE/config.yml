@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+# Update the owner if the repository is created under a different account.
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/Eful97/pictorium-anime-filler/blob/main/CONTRIBUTING.md
+    about: Read CONTRIBUTING.md before opening an issue. One series per issue; no AFL/SkipTheFiller copies.
