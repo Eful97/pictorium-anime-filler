@@ -24,8 +24,8 @@ filler DB is not a scrape of those sites.
 
 ## Attribution placeholders
 
-The current `db.json` has **15,856 episode rows expanded from the local
-`anime_filler.md` range list**. Titles, slugs, declared totals, and diagnostic
+The current `db.json` has **16,023 episode rows**, mostly expanded from the local
+`anime_filler.md` range list. Titles, slugs, declared totals, and diagnostic
 flags derive from the same local audit inputs. The origin, revision and license
 of `anime_filler.md` are still unpinned (see below), so the rows remain
 `needs-review`. No Fandom article text, Crucible export rows, or upstream episode

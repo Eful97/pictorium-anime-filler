@@ -10,7 +10,7 @@ through the generated `anime-filler-own-map.json` snapshot (see
 `to-pictorium-snapshot.mjs`); nothing here writes to the Pictorium repository,
 and the two snapshots stay separate files with separate licenses.
 
-Current status: **261 titles, 15,856 episode rows imported from
+Current status: **261 titles, 16,023 episode rows imported from
 `anime_filler.md`, all with MAL and TMDB ids, everything `needs-review`**. Only
 anime with both ids are kept in the database. No source revision is pinned
 (`sourceRevision` is `null`) and no id is verified upstream.

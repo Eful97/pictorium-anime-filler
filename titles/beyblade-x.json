@@ -3,207 +3,742 @@
   "title": "Beyblade X",
   "malId": 56566,
   "tmdbId": 226688,
-  "totalEpisodes": 40,
+  "totalEpisodes": 139,
   "source": "anime_filler.md",
   "sourceRevision": null,
   "episodes": [
     {
       "number": 1,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "X"
     },
     {
       "number": 2,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "Multi-Colored Ambush"
     },
     {
       "number": 3,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "Team Persona"
     },
     {
       "number": 4,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "Bey Sponsor"
     },
     {
       "number": 5,
       "status": "mixed",
-      "kind": "mixed"
+      "kind": "mixed",
+      "title": "To the X"
     },
     {
       "number": 6,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Lion's Jungle"
     },
     {
       "number": 7,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "Team Zooganic"
     },
     {
       "number": 8,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "The Mask and the King"
     },
     {
       "number": 9,
       "status": "mixed",
-      "kind": "mixed"
+      "kind": "mixed",
+      "title": "Beycrafter"
     },
     {
       "number": 10,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "The Pro Realm"
     },
     {
       "number": 11,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "Warden's Exam"
     },
     {
       "number": 12,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "The Final Battle"
     },
     {
       "number": 13,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "The First Fan"
     },
     {
       "number": 14,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Jax-ercise"
     },
     {
       "number": 15,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Riddles and Beys"
     },
     {
       "number": 16,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Noblesse Oblige"
     },
     {
       "number": 17,
       "status": "mixed",
-      "kind": "mixed"
+      "kind": "mixed",
+      "title": "Bey Time Shift"
     },
     {
       "number": 18,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Pride"
     },
     {
       "number": 19,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Zip and Zoom"
     },
     {
       "number": 20,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Memories of Sushi"
     },
     {
       "number": 21,
       "status": "canon",
-      "kind": "anime-canon"
+      "kind": "anime-canon",
+      "title": "Pop Production"
     },
     {
       "number": 22,
       "status": "mixed",
-      "kind": "mixed"
+      "kind": "mixed",
+      "title": "Black & White"
     },
     {
       "number": 23,
       "status": "canon",
-      "kind": "anime-canon"
+      "kind": "anime-canon",
+      "title": "True Heart"
     },
     {
       "number": 24,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "Arrival of the Fastest"
     },
     {
       "number": 25,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "Proof of the Fastest"
     },
     {
       "number": 26,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Invitation"
     },
     {
       "number": 27,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "The End of Persistence"
     },
     {
       "number": 28,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "The King and the Phoenix"
     },
     {
       "number": 29,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Mask and Meat Buns"
     },
     {
       "number": 30,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "Riddles and Pop"
     },
     {
       "number": 31,
       "status": "mixed",
-      "kind": "mixed"
+      "kind": "mixed",
+      "title": "My Teammates"
     },
     {
       "number": 32,
       "status": "filler",
-      "kind": "filler"
+      "kind": "filler",
+      "title": "New Partner"
     },
     {
       "number": 33,
       "status": "mixed",
-      "kind": "mixed"
+      "kind": "mixed",
+      "title": "Our Promise"
     },
     {
       "number": 34,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "A Rainbow Guest"
     },
     {
       "number": 35,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "The Dream Contest"
     },
     {
       "number": 36,
       "status": "mixed",
-      "kind": "mixed"
+      "kind": "mixed",
+      "title": "Bladership"
     },
     {
       "number": 37,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "Unpredictable"
     },
     {
       "number": 38,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "Return of the Queen"
     },
     {
       "number": 39,
       "status": "canon",
-      "kind": "manga-canon"
+      "kind": "manga-canon",
+      "title": "The Greatest Blader"
     },
     {
       "number": 40,
+      "status": "canon",
+      "kind": "anime-canon",
+      "title": "The Other Mask"
+    },
+    {
+      "number": 41,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 42,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 43,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 44,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 45,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 46,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 47,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 48,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 49,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 50,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 51,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 52,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 53,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 54,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 55,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 56,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 57,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 58,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 59,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 60,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 61,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 62,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 63,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 64,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 65,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 66,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 67,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 68,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 69,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 70,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 71,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 72,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 73,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 74,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 75,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 76,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 77,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 78,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 79,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 80,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 81,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 82,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 83,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 84,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 85,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 86,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 87,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 88,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 89,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 90,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 91,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 92,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 93,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 94,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 95,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 96,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 97,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 98,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 99,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 100,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 101,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 102,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 103,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 104,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 105,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 106,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 107,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 108,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 109,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 110,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 111,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 112,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 113,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 114,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 115,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 116,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 117,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 118,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 119,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 120,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 121,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 122,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 123,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 124,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 125,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 126,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 127,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 128,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 129,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 130,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 131,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 132,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 133,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 134,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 135,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 136,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 137,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 138,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 139,
       "status": "canon",
       "kind": "anime-canon"
     }
@@ -217,7 +752,7 @@
       "episodes-from-md",
       "id-from-anilist-fribb",
       "ids-unverified-upstream",
-      "tmdb-sum-mismatch:139vs40"
+      "tmdb-sum-match:139"
     ]
   },
   "provenance": {

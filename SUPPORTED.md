@@ -24,7 +24,7 @@
 | Berserk (2016) | 24 | 32379 | 66053 | sì |
 | Berserk (Berserk Kenpuden) | 25 | 33 | 35935 | sì |
 | Beyblade Metal Fusion | 51 | 5962 | 37807 | sì |
-| Beyblade X | 40 | 56566 | 226688 | sì |
+| Beyblade X | 139 | 56566 | 226688 | sì |
 | Black Butler (Kuroshitsuji) | 46 | 4898 | 50712 | sì |
 | Black Cat | 24 | 68 | 34065 | sì |
 | Black Clover | 170 | 34572 | 73223 | sì |
@@ -53,9 +53,9 @@
 | Cowboy Bebop | 27 | 1 | 30991 | sì |
 | D-Frag! | 12 | 20031 | 68634 | sì |
 | Dagashi Kashi | 24 | 31636 | 65523 | sì |
-| DAN DA DAN | 3 | 57334 | 240411 | sì |
+| DAN DA DAN | 24 | 57334 | 240411 | sì |
 | Darling in the FranXX | 24 | 35849 | 76121 | sì |
-| Darwin's Game | 10 | 38656 | 85942 | sì |
+| Darwin's Game | 11 | 38656 | 85942 | sì |
 | Deadman Wonderland | 13 | 6880 | 42503 | no |
 | Death Note | 37 | 1535 | 13916 | sì |
 | Death Parade | 12 | 28223 | 61901 | sì |
@@ -100,7 +100,7 @@
 | Full Metal Panic! | 49 | 71 | 39379 | sì |
 | Fullmetal Alchemist | 51 | 121 | 37863 | sì |
 | Fullmetal Alchemist: Brotherhood | 64 | 5114 | 31911 | sì |
-| Gachiakuta | 2 | 59062 | 256721 | sì |
+| Gachiakuta | 24 | 59062 | 256721 | sì |
 | GANGSTA. | 12 | 25183 | 66390 | sì |
 | Ghost In the Shell: Stand Alone Complex | 53 | 467 | 1095 | sì |
 | Girlfriend, Girlfriend (Kanojo mo Kanojo) | 12 | 43969 | 113137 | sì |
@@ -162,7 +162,7 @@
 | Monster | 74 | 19 | 30981 | sì |
 | My Dress-Up Darling (Sono Bisque Doll wa Koi wo Suru) | 24 | 48736 | 123249 | sì |
 | My Hero Academia (Boku no Hero Academia) | 170 | 31964 | 65930 | sì |
-| My Hero Academia: Vigilantes (Vigilante: Boku no Hero Academia Illegals) | 2 | 60593 | 280110 | sì |
+| My Hero Academia: Vigilantes (Vigilante: Boku no Hero Academia Illegals) | 26 | 60593 | 280110 | sì |
 | My Next Life as a Villainess: All Routes Lead to Doom! (Bakarina) | 24 | 38555 | 94904 | sì |
 | Nadia: The Secret of Blue Water (Fushigi no Umi no Nadia) | 39 | 1251 | 24710 | sì |
 | Naruto | 220 | 20 | 46260 | sì |
