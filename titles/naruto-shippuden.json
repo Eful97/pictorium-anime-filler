@@ -1,0 +1,2546 @@
+{
+  "slug": "naruto-shippuden",
+  "title": "Naruto Shippuden",
+  "malId": 1735,
+  "tmdbId": 31910,
+  "totalEpisodes": 500,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 2,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 3,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 4,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 5,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 6,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 7,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 8,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 9,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 10,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 11,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 12,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 13,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 14,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 15,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 16,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 17,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 18,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 19,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 20,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 21,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 22,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 23,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 24,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 25,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 26,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 27,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 28,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 29,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 30,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 31,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 32,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 33,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 34,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 35,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 36,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 37,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 38,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 39,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 40,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 41,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 42,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 43,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 44,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 45,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 46,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 47,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 48,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 49,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 50,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 51,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 52,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 53,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 54,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 55,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 56,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 57,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 58,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 59,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 60,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 61,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 62,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 63,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 64,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 65,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 66,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 67,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 68,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 69,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 70,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 71,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 72,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 73,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 74,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 75,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 76,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 77,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 78,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 79,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 80,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 81,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 82,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 83,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 84,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 85,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 86,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 87,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 88,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 89,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 90,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 91,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 92,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 93,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 94,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 95,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 96,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 97,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 98,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 99,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 100,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 101,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 102,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 103,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 104,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 105,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 106,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 107,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 108,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 109,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 110,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 111,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 112,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 113,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 114,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 115,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 116,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 117,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 118,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 119,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 120,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 121,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 122,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 123,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 124,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 125,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 126,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 127,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 128,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 129,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 130,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 131,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 132,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 133,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 134,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 135,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 136,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 137,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 138,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 139,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 140,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 141,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 142,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 143,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 144,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 145,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 146,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 147,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 148,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 149,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 150,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 151,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 152,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 153,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 154,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 155,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 156,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 157,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 158,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 159,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 160,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 161,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 162,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 163,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 164,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 165,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 166,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 167,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 168,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 169,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 170,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 171,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 172,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 173,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 174,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 175,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 176,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 177,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 178,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 179,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 180,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 181,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 182,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 183,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 184,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 185,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 186,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 187,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 188,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 189,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 190,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 191,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 192,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 193,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 194,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 195,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 196,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 197,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 198,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 199,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 200,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 201,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 202,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 203,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 204,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 205,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 206,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 207,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 208,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 209,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 210,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 211,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 212,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 213,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 214,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 215,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 216,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 217,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 218,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 219,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 220,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 221,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 222,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 223,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 224,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 225,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 226,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 227,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 228,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 229,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 230,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 231,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 232,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 233,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 234,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 235,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 236,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 237,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 238,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 239,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 240,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 241,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 242,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 243,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 244,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 245,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 246,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 247,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 248,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 249,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 250,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 251,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 252,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 253,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 254,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 255,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 256,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 257,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 258,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 259,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 260,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 261,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 262,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 263,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 264,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 265,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 266,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 267,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 268,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 269,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 270,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 271,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 272,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 273,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 274,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 275,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 276,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 277,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 278,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 279,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 280,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 281,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 282,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 283,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 284,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 285,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 286,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 287,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 288,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 289,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 290,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 291,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 292,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 293,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 294,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 295,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 296,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 297,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 298,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 299,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 300,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 301,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 302,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 303,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 304,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 305,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 306,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 307,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 308,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 309,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 310,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 311,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 312,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 313,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 314,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 315,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 316,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 317,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 318,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 319,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 320,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 321,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 322,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 323,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 324,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 325,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 326,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 327,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 328,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 329,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 330,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 331,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 332,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 333,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 334,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 335,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 336,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 337,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 338,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 339,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 340,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 341,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 342,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 343,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 344,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 345,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 346,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 347,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 348,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 349,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 350,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 351,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 352,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 353,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 354,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 355,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 356,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 357,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 358,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 359,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 360,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 361,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 362,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 363,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 364,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 365,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 366,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 367,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 368,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 369,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 370,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 371,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 372,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 373,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 374,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 375,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 376,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 377,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 378,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 379,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 380,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 381,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 382,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 383,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 384,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 385,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 386,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 387,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 388,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 389,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 390,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 391,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 392,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 393,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 394,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 395,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 396,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 397,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 398,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 399,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 400,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 401,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 402,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 403,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 404,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 405,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 406,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 407,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 408,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 409,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 410,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 411,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 412,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 413,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 414,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 415,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 416,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 417,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 418,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 419,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 420,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 421,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 422,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 423,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 424,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 425,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 426,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 427,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 428,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 429,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 430,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 431,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 432,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 433,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 434,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 435,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 436,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 437,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 438,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 439,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 440,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 441,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 442,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 443,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 444,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 445,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 446,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 447,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 448,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 449,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 450,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 451,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 452,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 453,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 454,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 455,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 456,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 457,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 458,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 459,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 460,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 461,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 462,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 463,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 464,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 465,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 466,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 467,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 468,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 469,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 470,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 471,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 472,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 473,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 474,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 475,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 476,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 477,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 478,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 479,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 480,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 481,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 482,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 483,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 484,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 485,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 486,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 487,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 488,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 489,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 490,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 491,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 492,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 493,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 494,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 495,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 496,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 497,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 498,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 499,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 500,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "ids-unverified-upstream",
+      "tmdb-sum-match:500"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    },
+    "identity": {
+      "malId": 1735,
+      "tmdbId": 31910,
+      "malTitle": "Naruto: Shippuuden",
+      "tmdbName": "Naruto Shippūden",
+      "firstAirDate": "2007-02-15",
+      "regularSeasons": 20,
+      "regularSum": 500,
+      "comparedTo": {
+        "totalEpisodes": 500,
+        "episodesLength": 500
+      },
+      "method": "MAL page title match -> AniZip mappings -> TMDB /tv regular-season sum",
+      "verifiedAt": "2026-11-08T11:13:09.391Z",
+      "keyMasked": "***"
+    }
+  },
+  "tmdbSide": "tv"
+}

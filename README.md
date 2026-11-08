@@ -1,117 +1,85 @@
 # pictorium-anime-filler
 
-Standalone, private database of anime canon/filler/mixed episode
-classifications. It is a **separate artifact** from Pictorium's existing anime
-filler snapshot and is **not** merged into it.
+Standalone anime **canon / filler / mixed** episode database, used by
+[Pictorium](https://github.com/Eful97/Pictorium) to draw the filler banner on
+anime episode thumbnails.
 
-**Hard separation:** this repository is standalone private data. **No Pictorium
-integration is performed in this task** — no snapshot regeneration, no
-`SLUG_RUNS` edit, and no vendored copy committed to the Pictorium repository.
-Vendoring or submodule consumption is a **future consumer decision**, documented
-below only as an option, not implemented here.
+It is a **separate artifact** from Pictorium's existing anime filler snapshot
+(CC BY 4.0): the two are never merged into one licensed file. Pictorium's
+resolver reads them as two snapshots and applies its own precedence.
 
-> **Current status: scaffold only.**
-> `db.json` contains 364 title stubs derived read-only from local audit inputs.
-> **No episode rows have been imported.** Every title is `needs-review`, has no
-> pinned source, and has no MAL/TMDB id. The audit found slug/content-title
-> mismatches and numbering anomalies that must be resolved before any row is
-> trusted.
+> **Status: data imported, review pending.**
+> `db.json` is generated from 364 per-title source files and holds 19,625
+> episode rows. All titles are `needs-review`: `sourceRevision` is `null`, ids
+> are resolved from title search but not verified upstream, and known numbering
+> anomalies are flagged instead of guessed. Treat it as a best-effort aid, not
+> an authoritative source.
 
-## Why private
+## What it provides
 
-The repository is intended to stay **private** until the data has been reviewed,
-sources and attribution are pinned, and the license boundary is confirmed for the
-intended distribution. Private visibility does not change the license: recipients
-of the data receive it under CC BY-SA 4.0 (see `LICENSE` and `ATTRIBUTION.md`).
+- 364 titles, **19,625 episode rows**, 19,622 declared `totalEpisodes`.
+- Per-episode classification:
+  - `status`: `canon` | `filler` | `mixed`
+  - `kind`: `manga-canon` | `anime-canon` | `mixed` | `filler`
+- Identity: **300 MAL ids / 258 TMDB ids** (257 TV + 1 film), flagged
+  `ids-unverified-upstream`.
+- A generated **Pictorium `schemaVersion 2` snapshot** with
+  `manga`/`anime`/`filler`/`mixed` ranges on absolute numbering:
+  currently **244 records / 14,535 episodes / 2,247 ranges**.
 
-## License
+## Using it with Pictorium
 
-- This own filler DB: **CC BY-SA 4.0** (placeholder text in `LICENSE`; full legal
-  code to be added before publication).
-- Pictorium's existing filler snapshot: **CC BY 4.0, kept separate**. The two
-  artifacts are never merged into a single licensed file.
-- See `ATTRIBUTION.md` for source attribution placeholders and the explicit
-  no-AFL / no-SkipTheFiller claim.
+Pictorium's filler banner is driven by `/meta`, which appends
+`fill=manga|anime|filler|mixed` to an episode thumbnail URL. The resolver in
+`src/lib/anime-filler.ts` is a static, server-only snapshot lookup keyed by
+TMDB id (and MAL id).
 
-## What is in `db.json`
+Generate the snapshot from this repository:
 
-`db.json` is valid against `validate-db.mjs` and contains:
-
-| Item | Value |
-|---|---|
-| Schema | `pictorium-own-filler-db`, schemaVersion `1` |
-| Status codes | `canon`, `filler`, `mixed` |
-| Titles | 364 |
-| Episode rows | 0 (none imported) |
-| Sum of `totalEpisodes` | 19,622 (declared counts only; not extracted rows) |
-| Unique slugs / titles | 364 / 364 |
-| Rows with MAL/TMDB ids | 0 |
-| Rows with a pinned source | 0 |
-| Rows flagged `slug-needs-rename` | 41 |
-| Rows flagged `numbering-zero-based` | 6 |
-| Rows flagged `numbering-offset-start` | 2 |
-| Rows flagged `partial-unknownRanges` | 12 |
-| Rows flagged `md-split-available` | 364 |
-
-Each title is derived from the **content title** (`title.title`) in the audited
-dataset, while `slug` preserves the original internal slug verbatim. Mismatched
-files are flagged; no corrected slug is invented. Flags are explained in
-`schema.md`.
-
-## Preferred range source: `anime_filler.md`
-
-For future imports, the human-readable `anime_filler.md` range list is the
-**preferred range source over `out_json`**. It preserves the Manga Canon / Anime
-Canon / Mixed Canon/Filler / Filler split plus a `Totale` line, while `out_json`
-collapses anime-canon into `canonNumbers` and keeps it only as a per-row
-`subtype` hint (4,559 rows have no subtype). `out_json` remains a cross-check for
-declared totals and for titles without an md table. **No rows are imported from
-either source by this scaffold.**
-
-Diagnostic-only md cross-check (no rows imported, `episodes[]` stays empty):
-372 `###` headings, 364 with tables, 8 "Nessuna tabella"; 0 md-vs-JSON total
-mismatches; 2 range-sum mismatches; 12 coverage gaps; 6 zero-based md range sets;
-0 parse errors. Details and flags are in `schema.md`.
-
-## Future consumption (option, not part of this task)
-
-If a future consumer decision adopts this DB, the supported options are:
-
-1. **Vendored copy:** copy `db.json` into the consuming repository (or its build
-   context), commit the copy, and read it as a local file during build. Record
-   the source commit/tag of this repository in the vendoring commit.
-2. **Private submodule:** add this repository as a Git submodule and check it out
-   in CI with a **read-only deploy key** or a CI token scoped to this repository.
-   The build reads the checked-out `db.json`; no runtime request to GitHub is
-   made.
-
-Do not expose this repository, deploy keys, or tokens to clients, poster URLs, or
-runtime logs. **No vendoring, submodule, snapshot regeneration, or other
-Pictorium write is performed by this scaffold.**
-
-## Repository layout
-
-```
-README.md                              this file
-LICENSE                                CC BY-SA 4.0 placeholder
-ATTRIBUTION.md                         attribution placeholders + license boundary
-CONTRIBUTING.md                        contribution workflow (PR and issue request)
-db.json                                364 title stubs, zero episode rows
-schema.md                              schema, invariants, flags, md diagnostics
-validate-db.mjs                        offline validator (node stdlib only)
-schema.test.mjs                        node:test suite for the validator
-.github/ISSUE_TEMPLATE/add-series.yml  Add-series issue form
-.github/ISSUE_TEMPLATE/config.yml      issue template configuration
-.github/pull_request_template.md       one-series PR checklist
+```bash
+node to-pictorium-snapshot.mjs   # writes anime-filler-own-map.json
 ```
 
-## Validate locally
+Then in Pictorium:
+
+1. Copy `anime-filler-own-map.json` into `src/generated/` next to the existing
+   `anime-filler-map.json` (CC BY 4.0). Keep them **separate**.
+2. Load both snapshots in `src/lib/anime-filler.ts` with explicit precedence:
+   the established CC BY 4.0 snapshot first, this one as a fallback for TMDB ids
+   it does not cover. Do not merge records at runtime: the current index marks
+   duplicate ids as ambiguous (`null`).
+3. Enable the **Filler banner** toggle in Pictorium's miniature settings.
+
+Only titles that satisfy both conditions are emitted:
+
+- a TV TMDB id (`tmdbSide: "tv"`); film/OVA pages are skipped;
+- episode rows covering exactly `1..totalEpisodes` with positive, unique,
+  gap-free numbers.
+
+Everything else is listed in the snapshot's `meta.skipped` with a reason. This
+is intentional: a missing banner is better than a wrong one.
+
+## Source of truth
+
+```
+meta.json                 top-level meta + coverage
+titles/<slug>.json        one title object per file (edit this)
+db.json                   generated aggregate; never edit by hand
+```
+
+`node build-db.mjs` validates unique slugs and unique non-null MAL/TMDB ids,
+sorts titles by slug, and rewrites `db.json`. `node build-db.mjs --check` fails
+when `db.json` is stale (CI-friendly).
+
+## Validate
 
 Requirements: Node.js (tested with v26.4.0). No dependencies, no network.
 
 ```bash
+node build-db.mjs           # regenerate db.json
+node build-db.mjs --check   # fail if db.json is stale
 node validate-db.mjs db.json
-node --test schema.test.mjs
+node --test                 # validator + build suites (23 tests)
 ```
 
 The validator exits `0` for a valid database, `1` for schema/invariant
@@ -119,52 +87,81 @@ violations, and `2` when the input cannot be read or parsed.
 
 ## Contributing
 
-- Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full workflow.
+- Read [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - Request a missing series with the
-  [Add-series issue form](../../issues/new?template=add-series.yml): title plus a
-  TMDB regular-season episode count suggestion only; never precompiled filler or
-  mixed ranges.
+  [Add-series issue form](../../issues/new?template=add-series.yml): title plus
+  a TMDB regular-season episode count suggestion only; never precompiled filler
+  or mixed ranges.
 - Submit a mapping for **one series** with the
-  [pull request template](.github/pull_request_template.md): ranges plus N cover
-  the same run, source and revision cited, validator and tests green.
+  [pull request template](.github/pull_request_template.md): edit
+  `titles/<slug>.json`, keep ranges and N on the same run, cite source and
+  revision, and leave `node build-db.mjs --check`, the validator and the tests
+  green.
 
-The workflow mirrors the local helper `create_title_issues.py`: titles-only
-requests, TMDB N suggestion only, no precompiled ranges, `VERIFIED` titles
-skipped, and films/OVAs/specials/movies excluded from series requests.
+Contributions are accepted under CC BY-SA 4.0.
 
-## Create the GitHub repository later (DO NOT RUN in this task)
+## Id resolution tools
 
-The following commands are **documentation only**. They were **not executed**
-while producing this scaffold, and no GitHub repository, remote, git history, or
-push exists yet. Run them only after an explicit decision to publish.
+The id fields can be rebuilt with the checked-in scripts (network access is only
+used by `fill-ids.mjs` and `verify-tmdb-ids.mjs`):
 
-```bash
-cd pictorium-anime-filler
-git init
-git add .
-git commit -m "chore: scaffold own anime filler DB"
-gh auth login
-gh repo create pictorium-anime-filler --private --source=. --remote=origin --push
-```
+| Script | Purpose |
+|---|---|
+| `fill-ids.mjs` | AniList `Page.media(search:)` title match + Fribb `anime-list-full.json` for MAL↔TMDB ids. |
+| `refine-id-report.mjs` | Applies season/format rules: TMDB only for season 1, relaxed OVA/ONA, movie/array normalization. |
+| `apply-id-report.mjs` | Writes the final decisions into `titles/<slug>.json`, with global deduplication. |
+| `verify-tmdb-ids.mjs` | Compares each TV id's regular-season sum with `totalEpisodes` and records `tmdb-sum-*` flags. |
 
-**DO NOT RUN in this task.** Creating the repository, authenticating `gh`, and
-pushing are out of scope for the scaffold. This task also performed **no GitHub
-operations and no Pictorium repository writes**.
+`id-report.json` keeps every decision, the chosen AniList/Fribb ids and the
+unresolved titles.
 
-## Before importing episode rows
+## Known limitations
 
-1. Confirm the source and its license for each title, then set `source` and
-   `sourceRevision` (never invent ids).
-2. Prefer the `anime_filler.md` table for ranges; keep the anime-canon split as
-   metadata, but use `type: canon` in schema v1.
-3. Resolve the 41 `slug-needs-rename` flags by review; do not rename blindly.
-4. Normalize 1-based numbering and fill coverage gaps, or keep `totalEpisodes`
-   consistent with what is actually classified and keep the
-   `partial-unknownRanges` flag.
-5. Fill `episodes` so it covers exactly `1..totalEpisodes` with no gaps or
-   duplicates, using `{n,title?,airDate?,type}`.
-6. Set `review.status` to `verified` only after the maintainer's second-signal
-   check, and update `updatedAt`.
-7. Run `node validate-db.mjs db.json` and `node --test schema.test.mjs`.
+- **64 titles have no id**: film/OVA/special compilations, franchise pages that
+  span multiple TMDB series (Pokémon groupings, Monogatari, JoJo TV) and fan
+  edits. They are left `null` on purpose.
+- **42 MAL-only titles**: the match is a later TMDB season, so the TMDB id is
+  withheld (`tmdb-id-later-season`) to avoid shifted episode numbering.
+- Numbering anomalies are flagged, not silently fixed: 6 zero-based runs,
+  12 coverage gaps, 2 range-sum mismatches, 2 duplicate-number sets.
+- 41 `slug-needs-rename` titles keep their original slug verbatim.
+- All ids are unverified upstream; TMDB sums are recorded per title
+  (140 exact, 117 mismatched, mostly multi-season franchise pages).
 
-See `schema.md` and `CONTRIBUTING.md` for the full contract.
+## Licensing and attribution
+
+- **This database: CC BY-SA 4.0** — full legal code in [`LICENSE`](LICENSE);
+  attribution and changes in [`NOTICE`](NOTICE) and
+  [`ATTRIBUTION.md`](ATTRIBUTION.md).
+- **Pictorium's existing snapshot: CC BY 4.0, kept separate.** The two artifacts
+  must never be merged into a single licensed file.
+- **Ids**: resolved via AniList title search and
+  [Fribb/anime-lists](https://github.com/Fribb/anime-lists). Ids are factual
+  identifiers; Fribb's own upstream terms remain under review (documented in
+  Pictorium's anime id-mapping notes).
+- Episode ranges derive from the local `anime_filler.md` list. No Anime Filler
+  List (AFL) HTML or SkipTheFiller page content is included
+  (`contamination` flags are `false`).
+
+### Before opening the repository publicly
+
+The code and documentation are ready to be public, but the **data provenance is
+not yet fully pinned**. Before publishing as an authoritative public dataset:
+
+1. Pin the origin, revision and license of `anime_filler.md` and record it in
+   `source` / `sourceRevision` and `ATTRIBUTION.md`.
+2. Verify MAL/TMDB ids against their upstream sources; almost every title still
+   carries `ids-unverified-upstream`.
+3. Review the flagged numbering anomalies and the `slug-needs-rename` set.
+4. Keep the CC BY-SA 4.0 (this DB) and CC BY 4.0 (Pictorium snapshot) notices
+   separate in any redistribution.
+
+## License boundary
+
+| Artifact | License | Relationship |
+|---|---|---|
+| This database (`pictorium-anime-filler`) | CC BY-SA 4.0 | Separate artifact |
+| Pictorium existing anime filler snapshot | CC BY 4.0 | Never merged into this DB |
+
+Downstream consumers that combine the two must preserve both sets of notices and
+comply with both licenses.

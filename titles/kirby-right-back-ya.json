@@ -1,0 +1,531 @@
+{
+  "slug": "kirby-right-back-ya",
+  "title": "Kirby: Right Back at Ya! (Hoshi no Kābī)",
+  "malId": 2390,
+  "tmdbId": 14891,
+  "totalEpisodes": 100,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 2,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 3,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 4,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 5,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 6,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 7,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 8,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 9,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 10,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 11,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 12,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 13,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 14,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 15,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 16,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 17,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 18,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 19,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 20,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 21,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 22,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 23,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 24,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 25,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 26,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 27,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 28,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 29,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 30,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 31,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 32,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 33,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 34,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 35,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 36,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 37,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 38,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 39,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 40,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 41,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 42,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 43,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 44,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 45,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 46,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 47,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 48,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 49,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 50,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 51,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 52,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 53,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 54,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 55,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 56,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 57,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 58,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 59,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 60,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 61,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 62,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 63,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 64,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 65,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 66,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 67,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 68,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 69,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 70,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 71,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 72,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 73,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 74,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 75,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 76,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 77,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 78,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 79,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 80,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 81,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 82,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 83,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 84,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 85,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 86,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 87,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 88,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 89,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 90,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 91,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 92,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 93,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 94,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 95,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 96,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 97,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 98,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 99,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 100,
+      "status": "filler",
+      "kind": "filler"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-from-anilist-fribb",
+      "ids-unverified-upstream",
+      "tmdb-sum-match:100"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": "tv"
+}

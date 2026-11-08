@@ -1,18 +1,17 @@
 # Schema and invariants
 
-`db.json` is the machine-readable own filler database for the private
-`pictorium-anime-filler` repository. It is a **separate artifact** from the
-existing Pictorium filler snapshot: the own DB is CC BY-SA 4.0, the snapshot is
-CC BY 4.0, and they are never merged into a single licensed file.
+`db.json` is the machine-readable own filler database for
+`pictorium-anime-filler`. It is a **separate artifact** from the existing
+Pictorium filler snapshot: this DB is CC BY-SA 4.0, the snapshot is CC BY 4.0,
+and they are never merged into a single licensed file.
 
-**Hard separation:** this is a standalone private data repository. **No Pictorium
-integration is performed in this task** — no snapshot regeneration, no
-`SLUG_RUNS` edit, and no vendored copy committed to the Pictorium repository.
-Vendoring or submodule consumption is a future consumer decision, documented in
-`README.md` only as an option.
+**Hard separation:** this repository contains data only. Pictorium consumes it
+through the generated `anime-filler-own-map.json` snapshot (see
+`to-pictorium-snapshot.mjs`); nothing here writes to the Pictorium repository,
+and the two snapshots stay separate files with separate licenses.
 
 Current status: **364 titles, 19,625 episode rows imported from
-`anime_filler.md`, 20 rows with MAL/TMDB ids, everything `needs-review`**. No
+`anime_filler.md`, 300 MAL / 258 TMDB ids, everything `needs-review`**. No
 source revision is pinned (`sourceRevision` is `null`) and no MAL/TMDB id is
 verified upstream.
 
@@ -56,9 +55,10 @@ cross-check only.
 | Field | Type | Notes |
 |---|---|---|
 | `slug` | string | Original internal slug, verbatim. Unique. Never invented. |
-| `title` | string | Content title coherent with the source rows. Unique in this scaffold. |
+| `title` | string | Content title coherent with the source rows. Unique in this db. |
 | `malId` | integer \| null | Not guessed. `null` until verified. |
 | `tmdbId` | integer \| null | Not guessed. `null` until verified. |
+| `tmdbSide` | `"tv" \| "movie" \| null` | Optional. Set when `tmdbId` is known: `tv` for series ids usable by the episode banner, `movie` for film/OVA pages. |
 | `totalEpisodes` | integer >= 0 | Declared episode count. |
 | `source` | string \| null | Provider/dump identifier, only after source + license are confirmed. |
 | `sourceRevision` | string \| null | Revision/version of the pinned source. |
@@ -105,7 +105,7 @@ rule applies.
 1. `meta.kind`, `meta.schemaVersion`, `meta.statusCodes` are exact.
 2. Both contamination flags are `false`, in `meta` and in every
    `provenance.contamination`.
-3. `titles` has exactly **364** entries (the scaffold baseline; bump the
+3. `titles` has exactly **364** entries (the current baseline; bump the
    validator constant deliberately if the dataset grows).
 4. Slugs are unique; non-null MAL/TMDB ids are unique.
 5. `episodes: []` is valid for any `totalEpisodes`.
@@ -152,8 +152,15 @@ Import and identity flags (2026-11-08):
 | Flag | Meaning | Current count |
 |---|---|---|
 | `episodes-from-md` | Episode rows were expanded from the title's `anime_filler.md` table. | 364 |
-| `ids-unverified-upstream` | MAL/TMDB ids came from AniZip/search, not an upstream-confirmed mapping. | 20 |
-| `tmdb-sum-mismatch:<tmdb>vs<db>` | TMDB regular-season sum differs from the declared `totalEpisodes`. | 9 |
+| `ids-unverified-upstream` | MAL/TMDB ids came from AniZip/search, not an upstream-confirmed mapping. | 300 MAL / 258 TMDB |
+| `id-from-anilist-fribb` | Ids resolved by AniList title search + Fribb `anime-list-full.json`. | 281 |
+| `id-episode-mismatch:<ani>vs<db>` | AniList entry episode count differs from the db page (franchise/multi-season page). | 146 |
+| `tmdb-id-later-season:<n>` | TMDB id withheld because the match is season `n` (local 1-based numbering would be offset). MAL kept. | 36 |
+| `id-format-relaxed` | OVA/ONA page accepted for a TV-shaped title when the episode count matches. | 3 |
+| `id-ambiguous` / `id-not-found` / `id-format-mismatch` | Unresolved by the resolver; ids stay `null`. | 3 / 38 / 22 |
+| `mal-id-duplicate-of:<slug>` / `tmdb-id-duplicate-of:<slug>` | Id already owned by a canonical title; this page keeps `null`. | 1 |
+| `tmdb-id-rejected-relaxed:<sum>vs<db>` | Relaxed OVA/ONA match whose TMDB series has a different length; TMDB id removed. | varies |
+| `tmdb-sum-match:<n>` / `tmdb-sum-mismatch:<sum>vs<db>` | TMDB regular-season sum compared with `totalEpisodes`. | 140 / 117 |
 | `tmdb-id-from-search` | TMDB id resolved via verified search instead of AniZip. | 1 |
 
 `md-split-available` and `episodes-from-md` are present on every title because
@@ -187,16 +194,31 @@ from this diagnostic; flags exist to force review before import.
 ## Validation
 
 ```bash
+node build-db.mjs           # regenerate db.json from meta.json + titles/
+node build-db.mjs --check   # fail when db.json is stale
 node validate-db.mjs db.json
-node --test schema.test.mjs
+node --test                 # validator + build suites
 ```
 
 - Exit `0`: valid.
-- Exit `1`: schema/invariant violations, printed one per line.
+- Exit `1`: schema/invariant violations, printed one per line; `build-db.mjs
+  --check` exits `1` when `db.json` is stale.
 - Exit `2`: file unreadable or invalid JSON.
 
-Both commands are offline, use only the Node.js standard library, and have no
+All commands are offline, use only the Node.js standard library, and have no
 network access.
+
+## Source layout
+
+`db.json` is a generated aggregate. The editable source of truth is:
+
+- `meta.json` — top-level `meta` and `coverage` objects;
+- `titles/<slug>.json` — one title object per file, filename equal to `slug`.
+
+`node build-db.mjs` validates unique slugs and unique non-null MAL/TMDB ids,
+sorts titles by slug, and rewrites `db.json`. Never edit `db.json` by hand.
+`to-pictorium-snapshot.mjs` emits the Pictorium `schemaVersion 2` snapshot
+(`manga`/`anime`/`filler`/`mixed` ranges) from the same source data.
 
 ## Licensing boundary
 

@@ -1,0 +1,30 @@
+pictorium-anime-filler
+Copyright (c) 2026 The pictorium-anime-filler contributors
+
+This database (the compilation and the episode canon/filler/mixed
+classifications) is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+The full legal code is in LICENSE.
+
+License URL: https://creativecommons.org/licenses/by-sa/4.0/
+
+Changes and third-party material
+--------------------------------
+- Episode classifications were derived from the local `anime_filler.md` range
+  list. Its origin, revision and license are still unpinned; see
+  ATTRIBUTION.md.
+- MAL and TMDB identifiers were resolved with AniList title search and
+  Fribb/anime-lists. Ids are factual identifiers; upstream terms are under
+  review.
+- No Anime Filler List (AFL) HTML and no SkipTheFiller page content is included.
+- Pictorium's existing anime filler snapshot is a separate artifact under
+  CC BY 4.0 and is not merged into this database.
+
+Attribution when sharing or adapting
+------------------------------------
+Include the title `pictorium-anime-filler`, a link to this repository or to the
+CC BY-SA 4.0 license, a notice that the work is licensed under CC BY-SA 4.0, and
+an identification of any modifications.
+
+No warranty is provided. The data is a best-effort classification aid and may
+contain errors.

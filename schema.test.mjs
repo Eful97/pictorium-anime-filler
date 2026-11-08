@@ -140,6 +140,26 @@ test("zero-based episode numbering is rejected on unflagged rows", () => {
   expectError(errors, /positive integer.*zero-based/);
 });
 
+test("tmdbSide accepts tv|movie and requires a tmdbId", () => {
+  const ok = errorsAfter((db) => {
+    db.titles[0].tmdbId = 1;
+    db.titles[0].tmdbSide = "movie";
+  });
+  assert.deepEqual(ok.filter((message) => message.includes("tmdbSide")), []);
+
+  const badValue = errorsAfter((db) => {
+    db.titles[0].tmdbId = 1;
+    db.titles[0].tmdbSide = "film";
+  });
+  expectError(badValue, /tmdbSide must be "tv", "movie", or null/);
+
+  const orphan = errorsAfter((db) => {
+    db.titles[0].tmdbId = null;
+    db.titles[0].tmdbSide = "tv";
+  });
+  expectError(orphan, /tmdbSide requires a positive tmdbId/);
+});
+
 test("contamination=true is rejected in meta and in per-title provenance", () => {
   const metaErrors = errorsAfter((db) => {
     db.meta.contamination.aflHtml = true;

@@ -1,0 +1,42 @@
+{
+  "slug": "tokyo-ghoul-5",
+  "title": "Sailor Moon Crystal Films",
+  "malId": null,
+  "tmdbId": null,
+  "totalEpisodes": 2,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 3,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "slug-needs-rename",
+      "partial-unknownRanges",
+      "md-split-available",
+      "md-range-coverage-gap:1",
+      "md-range-out-of-bounds:1",
+      "episodes-from-md",
+      "id-not-found"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": null
+}

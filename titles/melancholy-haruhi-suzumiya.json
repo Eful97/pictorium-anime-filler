@@ -1,0 +1,172 @@
+{
+  "slug": "melancholy-haruhi-suzumiya",
+  "title": "The Melancholy of Haruhi Suzumiya (Suzumiya Haruhi no Yuuutsu)",
+  "malId": 849,
+  "tmdbId": 42511,
+  "totalEpisodes": 28,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 2,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 3,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 4,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 5,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 6,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 7,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 8,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 9,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 10,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 11,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 12,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 13,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 14,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 15,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 16,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 17,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 18,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 19,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 20,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 21,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 22,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 23,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 24,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 25,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 26,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 27,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 28,
+      "status": "filler",
+      "kind": "filler"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-from-anilist-fribb",
+      "ids-unverified-upstream",
+      "id-episode-mismatch:14vs28",
+      "tmdb-sum-match:28"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": "tv"
+}

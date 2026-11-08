@@ -184,6 +184,15 @@ export function validateDatabase(db) {
       err(`${label}: title must be a non-empty string`);
     }
 
+    if (title.tmdbSide !== undefined && title.tmdbSide !== null) {
+      if (title.tmdbSide !== "tv" && title.tmdbSide !== "movie") {
+        err(`${label}: tmdbSide must be "tv", "movie", or null`);
+      }
+      if (!isPositiveInteger(title.tmdbId)) {
+        err(`${label}: tmdbSide requires a positive tmdbId`);
+      }
+    }
+
     for (const idKey of ["malId", "tmdbId"]) {
       const value = title[idKey];
       if (value === null) continue;

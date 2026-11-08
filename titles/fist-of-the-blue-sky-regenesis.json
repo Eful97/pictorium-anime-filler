@@ -1,0 +1,91 @@
+{
+  "slug": "fist-of-the-blue-sky-regenesis",
+  "title": "Fist of the Blue Sky: Regenesis",
+  "malId": 36655,
+  "tmdbId": null,
+  "totalEpisodes": 12,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 2,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 3,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 4,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 5,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 6,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 7,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 8,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 9,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 10,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 11,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 12,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-from-anilist-fribb",
+      "ids-unverified-upstream",
+      "tmdb-id-later-season:2"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": null
+}

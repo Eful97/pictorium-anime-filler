@@ -1,0 +1,44 @@
+{
+  "slug": "seirei-tsukai-no-blade-dance",
+  "title": "Gintama Films",
+  "malId": null,
+  "tmdbId": null,
+  "totalEpisodes": 3,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 2,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 3,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "slug-needs-rename",
+      "md-split-available",
+      "episodes-from-md",
+      "id-not-found"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": null
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "beyblade-burst-god",
+  "title": "Beyblade Burst Evolution",
+  "malId": 34901,
+  "tmdbId": null,
+  "totalEpisodes": 1,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-from-anilist-fribb",
+      "ids-unverified-upstream",
+      "id-episode-mismatch:51vs1",
+      "tmdb-id-later-season:2"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": null
+}

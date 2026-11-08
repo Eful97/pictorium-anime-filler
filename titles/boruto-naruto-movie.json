@@ -1,0 +1,84 @@
+{
+  "slug": "boruto-naruto-movie",
+  "title": "Naruto Films",
+  "malId": null,
+  "tmdbId": null,
+  "totalEpisodes": 11,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 2,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 3,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 4,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 5,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 6,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 7,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 8,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 9,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 10,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 11,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-not-found"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": null
+}

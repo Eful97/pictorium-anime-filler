@@ -1,0 +1,34 @@
+{
+  "slug": "hajime-no-ippo-mashiba-vs-kimura-execution",
+  "title": "Hajime no Ippo: Mashiba vs. Kimura - Execution",
+  "malId": null,
+  "tmdbId": null,
+  "totalEpisodes": 1,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-not-found"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": null
+}

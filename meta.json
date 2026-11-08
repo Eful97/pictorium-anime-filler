@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "kind": "pictorium-own-filler-db",
+    "statusCodes": [
+      "canon",
+      "filler",
+      "mixed"
+    ],
+    "sources": [
+      {
+        "id": "anime_filler.md",
+        "type": "markdown",
+        "description": "Elenco episodi canon/filler per titolo (Manga Canon, Anime Canon, Mixed Canon/Filler, Filler)"
+      }
+    ],
+    "licenseBoundary": {
+      "ownDb": "CC BY-SA 4.0",
+      "existingSnapshot": "CC BY 4.0 (separate)"
+    },
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "coverage": {
+    "alreadyCovered": []
+  }
+}

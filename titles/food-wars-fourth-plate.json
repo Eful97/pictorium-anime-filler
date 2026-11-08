@@ -1,0 +1,39 @@
+{
+  "slug": "food-wars-fourth-plate",
+  "title": "Bleach OVAs",
+  "malId": null,
+  "tmdbId": null,
+  "totalEpisodes": 2,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 2,
+      "status": "filler",
+      "kind": "filler"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "slug-needs-rename",
+      "md-split-available",
+      "episodes-from-md",
+      "id-not-found"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": null
+}

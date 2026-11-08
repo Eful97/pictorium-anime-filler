@@ -1,0 +1,45 @@
+{
+  "slug": "school-days",
+  "title": "School Rumble",
+  "malId": 24,
+  "tmdbId": 31665,
+  "totalEpisodes": 2,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 53,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 54,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "numbering-offset-start",
+      "partial-unknownRanges",
+      "md-split-available",
+      "md-range-coverage-gap:2",
+      "md-range-out-of-bounds:2",
+      "episodes-from-md",
+      "id-from-anilist-fribb",
+      "ids-unverified-upstream",
+      "id-episode-mismatch:26vs2",
+      "tmdb-sum-mismatch:52vs2"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": "tv"
+}

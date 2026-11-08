@@ -1,0 +1,81 @@
+{
+  "slug": "devilman-crybaby",
+  "title": "Devilman Crybaby",
+  "malId": 35120,
+  "tmdbId": 75208,
+  "totalEpisodes": 10,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 2,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 3,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 4,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 5,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 6,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 7,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 8,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 9,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 10,
+      "status": "mixed",
+      "kind": "mixed"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-from-anilist-fribb",
+      "ids-unverified-upstream",
+      "tmdb-sum-match:10"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": "tv"
+}

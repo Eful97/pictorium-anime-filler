@@ -1,0 +1,236 @@
+{
+  "slug": "love-ru",
+  "title": "To Love Ru",
+  "malId": 3455,
+  "tmdbId": 34742,
+  "totalEpisodes": 38,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 2,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 3,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 4,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 5,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 6,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 7,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 8,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 9,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 10,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 11,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 12,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 13,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 14,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 15,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 16,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 17,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 18,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 19,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 20,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 21,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 22,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 23,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 24,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 25,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 26,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 27,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 28,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 29,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 30,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 31,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 32,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 33,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 34,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 35,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 36,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 37,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 38,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "ids-unverified-upstream",
+      "tmdb-sum-mismatch:64vs38"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    },
+    "identity": {
+      "malId": 3455,
+      "tmdbId": 34742,
+      "malTitle": "To LOVE-Ru",
+      "tmdbName": "To Love Ru",
+      "firstAirDate": "2008-04-04",
+      "regularSeasons": 4,
+      "regularSum": 64,
+      "comparedTo": {
+        "totalEpisodes": 38,
+        "episodesLength": 38
+      },
+      "method": "MAL page title match -> AniZip mappings -> TMDB /tv regular-season sum",
+      "verifiedAt": "2026-11-08T11:13:25.890Z",
+      "keyMasked": "***"
+    }
+  },
+  "tmdbSide": "tv"
+}

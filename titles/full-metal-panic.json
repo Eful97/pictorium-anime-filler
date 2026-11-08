@@ -1,0 +1,277 @@
+{
+  "slug": "full-metal-panic",
+  "title": "Full Metal Panic!",
+  "malId": 71,
+  "tmdbId": 39379,
+  "totalEpisodes": 49,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 2,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 3,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 4,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 5,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 6,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 7,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 8,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 9,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 10,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 11,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 12,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 13,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 14,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 15,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 16,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 17,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 18,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 19,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 20,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 21,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 22,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 23,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 24,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 25,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 26,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 27,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 28,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 29,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 30,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 31,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 32,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 33,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 34,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 35,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 36,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 37,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 38,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 39,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 40,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 41,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 42,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 43,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 44,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 45,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 46,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 47,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 48,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 49,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-from-anilist-fribb",
+      "ids-unverified-upstream",
+      "id-episode-mismatch:24vs49",
+      "tmdb-sum-mismatch:60vs49"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": "tv"
+}

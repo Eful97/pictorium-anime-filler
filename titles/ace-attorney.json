@@ -1,0 +1,267 @@
+{
+  "slug": "ace-attorney",
+  "title": "Ace Attorney (Gyakuten Saiban)",
+  "malId": 31630,
+  "tmdbId": 66103,
+  "totalEpisodes": 47,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 2,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 3,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 4,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 5,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 6,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 7,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 8,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 9,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 10,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 11,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 12,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 13,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 14,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 15,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 16,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 17,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 18,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 19,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 20,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 21,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 22,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 23,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 24,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 25,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 26,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 27,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 28,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 29,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 30,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 31,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 32,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 33,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 34,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 35,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 36,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 37,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 38,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 39,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 40,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 41,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 42,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 43,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 44,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 45,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 46,
+      "status": "canon",
+      "kind": "anime-canon"
+    },
+    {
+      "number": 47,
+      "status": "canon",
+      "kind": "anime-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-from-anilist-fribb",
+      "ids-unverified-upstream",
+      "id-episode-mismatch:24vs47",
+      "tmdb-sum-match:47"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": "tv"
+}

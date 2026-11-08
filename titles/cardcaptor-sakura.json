@@ -1,0 +1,497 @@
+{
+  "slug": "cardcaptor-sakura",
+  "title": "Cardcaptor Sakura",
+  "malId": 232,
+  "tmdbId": 35790,
+  "totalEpisodes": 93,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 2,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 3,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 4,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 5,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 6,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 7,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 8,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 9,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 10,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 11,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 12,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 13,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 14,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 15,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 16,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 17,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 18,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 19,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 20,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 21,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 22,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 23,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 24,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 25,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 26,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 27,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 28,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 29,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 30,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 31,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 32,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 33,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 34,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 35,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 36,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 37,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 38,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 39,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 40,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 41,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 42,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 43,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 44,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 45,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 46,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 47,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 48,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 49,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 50,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 51,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 52,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 53,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 54,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 55,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 56,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 57,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 58,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 59,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 60,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 61,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 62,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 63,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 64,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 65,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 66,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 67,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 68,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 69,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 70,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 71,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 72,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 73,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 74,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 75,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 76,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 77,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 78,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 79,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 80,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 81,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 82,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 83,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 84,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 85,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 86,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 87,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 88,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 89,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 90,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 91,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 92,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 93,
+      "status": "canon",
+      "kind": "manga-canon"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "id-from-anilist-fribb",
+      "ids-unverified-upstream",
+      "id-episode-mismatch:70vs93",
+      "tmdb-sum-mismatch:92vs93"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    }
+  },
+  "tmdbSide": "tv"
+}

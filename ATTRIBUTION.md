@@ -1,15 +1,15 @@
 # Attribution and license boundary
 
-This repository is a separate, private own-filler database. It is **not** a copy
+This repository is a separate, standalone own-filler database. It is **not** a copy
 of the existing Pictorium filler snapshot and must not be merged into it.
 
 ## Own data
 
-The compilation and, once populated, the episode status classifications in this
-repository are released by the repository owner under **CC BY-SA 4.0** (see
-`LICENSE`). The owner states that this own data is verified and publishable under
-that license. This statement does not cover third-party material, which remains
-under its own terms below.
+The compilation and the episode status classifications in this repository are
+released by the repository owner under **CC BY-SA 4.0** (see `LICENSE` and
+`NOTICE`). This statement does not cover third-party material, which remains
+under its own terms below. The data is best-effort and still carries
+`needs-review` rows; see the public-release checklist in `README.md`.
 
 ## No AFL / SkipTheFiller content claimed
 
@@ -20,13 +20,16 @@ is stored here.
 
 If a future contribution ever imports such material, it must be explicitly
 recorded, attributed, and reviewed — and this statement must be revised. The
-private filler DB is not a scrape of those sites.
+filler DB is not a scrape of those sites.
 
 ## Attribution placeholders
 
-The current `db.json` has **zero episode rows**. Titles, slugs, declared totals,
-and diagnostic flags were derived read-only from local audit inputs. No Fandom
-article text, Crucible export rows, or episode mappings are included yet.
+The current `db.json` has **19,625 episode rows expanded from the local
+`anime_filler.md` range list**. Titles, slugs, declared totals, and diagnostic
+flags derive from the same local audit inputs. The origin, revision and license
+of `anime_filler.md` are still unpinned (see below), so the rows remain
+`needs-review`. No Fandom article text, Crucible export rows, or upstream episode
+mappings are included.
 
 When rows are imported, replace each placeholder with concrete facts. Do not
 publish with unresolved placeholders.
@@ -63,7 +66,7 @@ provenance before importing rows.
 
 ### `anime_filler.md` range list
 
-- Status: **placeholder — preferred range source, no rows imported yet**
+- Status: **rows imported; origin, revision and license still unpinned**
 - Local input: `anime_filler.md` (human-readable range list)
 - Original source / compiler:
 - URL or export identifier:
@@ -73,7 +76,19 @@ provenance before importing rows.
 
 The md file is the preferred range source for future imports because it preserves
 the anime-canon split that `out_json` collapses. Its own provenance and license
-still need to be pinned before any range is copied into `db.json`.
+still need to be pinned before this data is published as authoritative.
+
+### MAL / TMDB identifiers
+
+- Resolved with AniList title search and
+  [`Fribb/anime-lists`](https://github.com/Fribb/anime-lists)
+  (`anime-list-full.json`), then filtered by season and media type.
+- Identifiers are factual references, not creative content. Fribb's own upstream
+  terms are still under review (see Pictorium's anime id-mapping notes); no
+  license is asserted on Fribb's behalf.
+- No id is verified against MAL or TMDB yet: titles keep
+  `ids-unverified-upstream`, and TMDB regular-season sums are recorded as
+  `tmdb-sum-match` / `tmdb-sum-mismatch` flags.
 
 ## License boundary vs the existing Pictorium snapshot
 

@@ -1,0 +1,176 @@
+{
+  "slug": "trigun",
+  "title": "Trigun",
+  "malId": 6,
+  "tmdbId": 26453,
+  "totalEpisodes": 26,
+  "source": "anime_filler.md",
+  "sourceRevision": null,
+  "episodes": [
+    {
+      "number": 1,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 2,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 3,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 4,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 5,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 6,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 7,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 8,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 9,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 10,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 11,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 12,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 13,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 14,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 15,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 16,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 17,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 18,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
+      "number": 19,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 20,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 21,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 22,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 23,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 24,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 25,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 26,
+      "status": "filler",
+      "kind": "filler"
+    }
+  ],
+  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "review": {
+    "status": "needs-review",
+    "flags": [
+      "source-not-pinned",
+      "md-split-available",
+      "episodes-from-md",
+      "ids-unverified-upstream",
+      "tmdb-sum-match:26"
+    ]
+  },
+  "provenance": {
+    "plannedSource": "direct-viewing-or-fandom-dump-TBD",
+    "contamination": {
+      "aflHtml": false,
+      "skipthefillerPages": false
+    },
+    "identity": {
+      "malId": 6,
+      "tmdbId": 26453,
+      "malTitle": "Trigun",
+      "tmdbName": "TRIGUN",
+      "firstAirDate": "1998-04-02",
+      "regularSeasons": 1,
+      "regularSum": 26,
+      "comparedTo": {
+        "totalEpisodes": 26,
+        "episodesLength": 26
+      },
+      "method": "MAL page title match -> AniZip mappings -> TMDB /tv regular-season sum",
+      "verifiedAt": "2026-11-08T11:13:22.423Z",
+      "keyMasked": "***"
+    }
+  },
+  "tmdbSide": "tv"
+}
