@@ -3,7 +3,7 @@
   "title": "Dragon Ball Z Kai",
   "malId": 6033,
   "tmdbId": 61709,
-  "totalEpisodes": 166,
+  "totalEpisodes": 167,
   "source": "anime_filler.md",
   "sourceRevision": null,
   "episodes": [
@@ -698,6 +698,11 @@
       "kind": "mixed"
     },
     {
+      "number": 139,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
       "number": 140,
       "status": "mixed",
       "kind": "mixed"
@@ -838,19 +843,16 @@
       "kind": "mixed"
     }
   ],
-  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "updatedAt": "2026-11-09T00:00:00.000Z",
   "review": {
     "status": "needs-review",
     "flags": [
-      "partial-unknownRanges",
       "md-split-available",
-      "md-range-coverage-gap:1",
-      "md-range-out-of-bounds:1",
       "episodes-from-md",
       "id-from-anilist-fribb",
       "ids-unverified-upstream",
-      "id-episode-mismatch:97vs166",
-      "tmdb-sum-mismatch:158vs166"
+      "id-episode-mismatch:97vs167",
+      "tmdb-sum-mismatch:158vs167"
     ]
   },
   "provenance": {

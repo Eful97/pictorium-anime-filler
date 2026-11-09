@@ -3,15 +3,10 @@
   "title": "Assassination Classroom (Ansatsu Kyoushitsu)",
   "malId": 24833,
   "tmdbId": 62110,
-  "totalEpisodes": 48,
+  "totalEpisodes": 47,
   "source": "anime_filler.md",
   "sourceRevision": null,
   "episodes": [
-    {
-      "number": 0,
-      "status": "canon",
-      "kind": "anime-canon"
-    },
     {
       "number": 1,
       "status": "canon",
@@ -248,18 +243,16 @@
       "kind": "manga-canon"
     }
   ],
-  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "updatedAt": "2026-11-09T00:00:00.000Z",
   "review": {
     "status": "needs-review",
     "flags": [
-      "numbering-zero-based",
       "md-split-available",
-      "md-zero-based-ranges",
       "episodes-from-md",
       "id-from-anilist-fribb",
       "ids-unverified-upstream",
-      "id-episode-mismatch:22vs48",
-      "tmdb-sum-mismatch:47vs48"
+      "id-episode-mismatch:22vs47",
+      "tmdb-sum-match:47"
     ]
   },
   "provenance": {

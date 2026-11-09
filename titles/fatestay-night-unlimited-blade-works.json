@@ -8,11 +8,6 @@
   "sourceRevision": null,
   "episodes": [
     {
-      "number": 0,
-      "status": "canon",
-      "kind": "manga-canon"
-    },
-    {
       "number": 1,
       "status": "canon",
       "kind": "manga-canon"
@@ -136,20 +131,22 @@
       "number": 25,
       "status": "canon",
       "kind": "manga-canon"
+    },
+    {
+      "number": 26,
+      "status": "canon",
+      "kind": "manga-canon"
     }
   ],
-  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "updatedAt": "2026-11-09T00:00:00.000Z",
   "review": {
     "status": "needs-review",
     "flags": [
-      "numbering-zero-based",
       "md-split-available",
-      "md-zero-based-ranges",
       "episodes-from-md",
       "id-from-anilist-fribb",
       "ids-unverified-upstream",
-      "id-episode-mismatch:13vs26",
-      "tmdb-sum-mismatch:25vs26"
+      "tmdb-sum-match:26"
     ]
   },
   "provenance": {

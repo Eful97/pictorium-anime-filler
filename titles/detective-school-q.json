@@ -3,24 +3,24 @@
   "title": "Detective School Q (Tantei Gakuen Q)",
   "malId": 407,
   "tmdbId": 24912,
-  "totalEpisodes": 25,
+  "totalEpisodes": 45,
   "source": "anime_filler.md",
   "sourceRevision": null,
   "episodes": [
     {
       "number": 1,
-      "status": "mixed",
-      "kind": "mixed"
+      "status": "filler",
+      "kind": "filler"
     },
     {
       "number": 2,
-      "status": "mixed",
-      "kind": "mixed"
+      "status": "canon",
+      "kind": "manga-canon"
     },
     {
       "number": 3,
-      "status": "mixed",
-      "kind": "mixed"
+      "status": "canon",
+      "kind": "manga-canon"
     },
     {
       "number": 4,
@@ -98,6 +98,11 @@
       "kind": "manga-canon"
     },
     {
+      "number": 19,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
       "number": 20,
       "status": "canon",
       "kind": "manga-canon"
@@ -109,8 +114,8 @@
     },
     {
       "number": 22,
-      "status": "mixed",
-      "kind": "mixed"
+      "status": "canon",
+      "kind": "manga-canon"
     },
     {
       "number": 23,
@@ -119,8 +124,8 @@
     },
     {
       "number": 24,
-      "status": "mixed",
-      "kind": "mixed"
+      "status": "canon",
+      "kind": "manga-canon"
     },
     {
       "number": 25,
@@ -129,23 +134,114 @@
     },
     {
       "number": 26,
-      "status": "mixed",
-      "kind": "mixed"
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 27,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 28,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 29,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 30,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 31,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 32,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 33,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 34,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 35,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 36,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 37,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 38,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 39,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 40,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 41,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 42,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 43,
+      "status": "canon",
+      "kind": "manga-canon"
+    },
+    {
+      "number": 44,
+      "status": "filler",
+      "kind": "filler"
+    },
+    {
+      "number": 45,
+      "status": "filler",
+      "kind": "filler"
     }
   ],
-  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "updatedAt": "2026-11-09T00:00:00.000Z",
   "review": {
     "status": "needs-review",
     "flags": [
-      "partial-unknownRanges",
       "md-split-available",
-      "md-range-coverage-gap:1",
-      "md-range-out-of-bounds:1",
       "episodes-from-md",
       "id-from-anilist-fribb",
       "ids-unverified-upstream",
-      "id-episode-mismatch:45vs25",
-      "tmdb-sum-mismatch:45vs25"
+      "tmdb-sum-match:45"
     ]
   },
   "provenance": {

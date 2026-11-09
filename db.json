@@ -2601,15 +2601,10 @@
       "title": "Another",
       "malId": 11111,
       "tmdbId": 42589,
-      "totalEpisodes": 13,
+      "totalEpisodes": 12,
       "source": "anime_filler.md",
       "sourceRevision": null,
       "episodes": [
-        {
-          "number": 0,
-          "status": "canon",
-          "kind": "manga-canon"
-        },
         {
           "number": 1,
           "status": "canon",
@@ -2671,18 +2666,15 @@
           "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "numbering-zero-based",
           "md-split-available",
-          "md-zero-based-ranges",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
-          "id-episode-mismatch:12vs13",
-          "tmdb-sum-mismatch:12vs13"
+          "tmdb-sum-match:12"
         ]
       },
       "provenance": {
@@ -2699,15 +2691,10 @@
       "title": "Assassination Classroom (Ansatsu Kyoushitsu)",
       "malId": 24833,
       "tmdbId": 62110,
-      "totalEpisodes": 48,
+      "totalEpisodes": 47,
       "source": "anime_filler.md",
       "sourceRevision": null,
       "episodes": [
-        {
-          "number": 0,
-          "status": "canon",
-          "kind": "anime-canon"
-        },
         {
           "number": 1,
           "status": "canon",
@@ -2944,18 +2931,16 @@
           "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "numbering-zero-based",
           "md-split-available",
-          "md-zero-based-ranges",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
-          "id-episode-mismatch:22vs48",
-          "tmdb-sum-mismatch:47vs48"
+          "id-episode-mismatch:22vs47",
+          "tmdb-sum-match:47"
         ]
       },
       "provenance": {
@@ -15343,15 +15328,10 @@
       "title": "Deadman Wonderland",
       "malId": 6880,
       "tmdbId": 42503,
-      "totalEpisodes": 13,
+      "totalEpisodes": 12,
       "source": "anime_filler.md",
       "sourceRevision": null,
       "episodes": [
-        {
-          "number": 0,
-          "status": "mixed",
-          "kind": "mixed"
-        },
         {
           "number": 1,
           "status": "canon",
@@ -15413,18 +15393,15 @@
           "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "numbering-zero-based",
           "md-split-available",
-          "md-zero-based-ranges",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
-          "id-episode-mismatch:12vs13",
-          "tmdb-sum-mismatch:12vs13"
+          "tmdb-sum-match:12"
         ]
       },
       "provenance": {
@@ -22333,24 +22310,24 @@
       "title": "Detective School Q (Tantei Gakuen Q)",
       "malId": 407,
       "tmdbId": 24912,
-      "totalEpisodes": 25,
+      "totalEpisodes": 45,
       "source": "anime_filler.md",
       "sourceRevision": null,
       "episodes": [
         {
           "number": 1,
-          "status": "mixed",
-          "kind": "mixed"
+          "status": "filler",
+          "kind": "filler"
         },
         {
           "number": 2,
-          "status": "mixed",
-          "kind": "mixed"
+          "status": "canon",
+          "kind": "manga-canon"
         },
         {
           "number": 3,
-          "status": "mixed",
-          "kind": "mixed"
+          "status": "canon",
+          "kind": "manga-canon"
         },
         {
           "number": 4,
@@ -22428,6 +22405,11 @@
           "kind": "manga-canon"
         },
         {
+          "number": 19,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
           "number": 20,
           "status": "canon",
           "kind": "manga-canon"
@@ -22439,8 +22421,8 @@
         },
         {
           "number": 22,
-          "status": "mixed",
-          "kind": "mixed"
+          "status": "canon",
+          "kind": "manga-canon"
         },
         {
           "number": 23,
@@ -22449,8 +22431,8 @@
         },
         {
           "number": 24,
-          "status": "mixed",
-          "kind": "mixed"
+          "status": "canon",
+          "kind": "manga-canon"
         },
         {
           "number": 25,
@@ -22459,23 +22441,114 @@
         },
         {
           "number": 26,
-          "status": "mixed",
-          "kind": "mixed"
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 27,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 28,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 29,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 30,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 31,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 32,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 33,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 34,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 35,
+          "status": "filler",
+          "kind": "filler"
+        },
+        {
+          "number": 36,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 37,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 38,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 39,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 40,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 41,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 42,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 43,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 44,
+          "status": "filler",
+          "kind": "filler"
+        },
+        {
+          "number": 45,
+          "status": "filler",
+          "kind": "filler"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "partial-unknownRanges",
           "md-split-available",
-          "md-range-coverage-gap:1",
-          "md-range-out-of-bounds:1",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
-          "id-episode-mismatch:45vs25",
-          "tmdb-sum-mismatch:45vs25"
+          "tmdb-sum-match:45"
         ]
       },
       "provenance": {
@@ -26713,7 +26786,7 @@
       "title": "Dragon Ball Z Kai",
       "malId": 6033,
       "tmdbId": 61709,
-      "totalEpisodes": 166,
+      "totalEpisodes": 167,
       "source": "anime_filler.md",
       "sourceRevision": null,
       "episodes": [
@@ -27408,6 +27481,11 @@
           "kind": "mixed"
         },
         {
+          "number": 139,
+          "status": "mixed",
+          "kind": "mixed"
+        },
+        {
           "number": 140,
           "status": "mixed",
           "kind": "mixed"
@@ -27548,19 +27626,16 @@
           "kind": "mixed"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "partial-unknownRanges",
           "md-split-available",
-          "md-range-coverage-gap:1",
-          "md-range-out-of-bounds:1",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
-          "id-episode-mismatch:97vs166",
-          "tmdb-sum-mismatch:158vs166"
+          "id-episode-mismatch:97vs167",
+          "tmdb-sum-mismatch:158vs167"
         ]
       },
       "provenance": {
@@ -32025,11 +32100,6 @@
       "sourceRevision": null,
       "episodes": [
         {
-          "number": 0,
-          "status": "canon",
-          "kind": "manga-canon"
-        },
-        {
           "number": 1,
           "status": "canon",
           "kind": "manga-canon"
@@ -32153,20 +32223,22 @@
           "number": 25,
           "status": "canon",
           "kind": "manga-canon"
+        },
+        {
+          "number": 26,
+          "status": "canon",
+          "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "numbering-zero-based",
           "md-split-available",
-          "md-zero-based-ranges",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
-          "id-episode-mismatch:13vs26",
-          "tmdb-sum-mismatch:25vs26"
+          "tmdb-sum-match:26"
         ]
       },
       "provenance": {
@@ -38519,15 +38591,10 @@
       "title": "Highschool DxD",
       "malId": 11617,
       "tmdbId": 45950,
-      "totalEpisodes": 49,
+      "totalEpisodes": 48,
       "source": "anime_filler.md",
       "sourceRevision": null,
       "episodes": [
-        {
-          "number": 0,
-          "status": "canon",
-          "kind": "manga-canon"
-        },
         {
           "number": 1,
           "status": "canon",
@@ -38769,18 +38836,15 @@
           "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "numbering-zero-based",
           "md-split-available",
-          "md-zero-based-ranges",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
-          "id-episode-mismatch:12vs49",
-          "tmdb-sum-match:49"
+          "tmdb-sum-mismatch:49vs48"
         ]
       },
       "provenance": {
@@ -56233,15 +56297,10 @@
       "title": "No Game, No Life",
       "malId": 19815,
       "tmdbId": 60808,
-      "totalEpisodes": 13,
+      "totalEpisodes": 12,
       "source": "anime_filler.md",
       "sourceRevision": null,
       "episodes": [
-        {
-          "number": 0,
-          "status": "canon",
-          "kind": "manga-canon"
-        },
         {
           "number": 1,
           "status": "canon",
@@ -56303,18 +56362,15 @@
           "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "numbering-zero-based",
           "md-split-available",
-          "md-zero-based-ranges",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
-          "id-episode-mismatch:12vs13",
-          "tmdb-sum-mismatch:12vs13"
+          "tmdb-sum-match:12"
         ]
       },
       "provenance": {
@@ -78281,7 +78337,7 @@
       "title": "Shugo Chara",
       "malId": 2923,
       "tmdbId": 14451,
-      "totalEpisodes": 126,
+      "totalEpisodes": 127,
       "source": "anime_filler.md",
       "sourceRevision": null,
       "episodes": [
@@ -78646,6 +78702,11 @@
           "kind": "filler"
         },
         {
+          "number": 73,
+          "status": "mixed",
+          "kind": "mixed"
+        },
+        {
           "number": 74,
           "status": "canon",
           "kind": "manga-canon"
@@ -78916,19 +78977,16 @@
           "kind": "filler"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "partial-unknownRanges",
           "md-split-available",
-          "md-range-coverage-gap:1",
-          "md-range-out-of-bounds:1",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
-          "id-episode-mismatch:51vs126",
-          "tmdb-sum-mismatch:127vs126"
+          "id-episode-mismatch:51vs127",
+          "tmdb-sum-match:127"
         ]
       },
       "provenance": {

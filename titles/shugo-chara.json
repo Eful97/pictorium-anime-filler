@@ -3,7 +3,7 @@
   "title": "Shugo Chara",
   "malId": 2923,
   "tmdbId": 14451,
-  "totalEpisodes": 126,
+  "totalEpisodes": 127,
   "source": "anime_filler.md",
   "sourceRevision": null,
   "episodes": [
@@ -368,6 +368,11 @@
       "kind": "filler"
     },
     {
+      "number": 73,
+      "status": "mixed",
+      "kind": "mixed"
+    },
+    {
       "number": 74,
       "status": "canon",
       "kind": "manga-canon"
@@ -638,19 +643,16 @@
       "kind": "filler"
     }
   ],
-  "updatedAt": "2026-11-08T00:00:00.000Z",
+  "updatedAt": "2026-11-09T00:00:00.000Z",
   "review": {
     "status": "needs-review",
     "flags": [
-      "partial-unknownRanges",
       "md-split-available",
-      "md-range-coverage-gap:1",
-      "md-range-out-of-bounds:1",
       "episodes-from-md",
       "id-from-anilist-fribb",
       "ids-unverified-upstream",
-      "id-episode-mismatch:51vs126",
-      "tmdb-sum-mismatch:127vs126"
+      "id-episode-mismatch:51vs127",
+      "tmdb-sum-match:127"
     ]
   },
   "provenance": {
