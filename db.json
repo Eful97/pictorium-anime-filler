@@ -37309,6 +37309,66 @@
           "kind": "manga-canon"
         },
         {
+          "number": 5,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 6,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 7,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 8,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 9,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 10,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 11,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 12,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 13,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 14,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 15,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 16,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
           "number": 17,
           "status": "canon",
           "kind": "manga-canon"
@@ -37325,6 +37385,31 @@
         },
         {
           "number": 20,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 21,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 22,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 23,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 24,
+          "status": "canon",
+          "kind": "manga-canon"
+        },
+        {
+          "number": 25,
           "status": "canon",
           "kind": "manga-canon"
         },
@@ -37377,101 +37462,13 @@
           "number": 35,
           "status": "filler",
           "kind": "filler"
-        },
-        {
-          "number": 36,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 37,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 38,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 39,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 40,
-          "status": "canon",
-          "kind": "manga-canon"
-        },
-        {
-          "number": 41,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 42,
-          "status": "canon",
-          "kind": "manga-canon"
-        },
-        {
-          "number": 45,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 46,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 47,
-          "status": "canon",
-          "kind": "manga-canon"
-        },
-        {
-          "number": 48,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 49,
-          "status": "canon",
-          "kind": "manga-canon"
-        },
-        {
-          "number": 50,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 51,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 52,
-          "status": "canon",
-          "kind": "manga-canon"
-        },
-        {
-          "number": 77,
-          "status": "filler",
-          "kind": "filler"
-        },
-        {
-          "number": 101,
-          "status": "canon",
-          "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "partial-unknownRanges",
           "md-split-available",
-          "md-range-coverage-gap:17",
-          "md-range-out-of-bounds:17",
           "episodes-from-md",
           "ids-unverified-upstream",
           "tmdb-sum-mismatch:101vs35"
@@ -44942,70 +44939,66 @@
       "sourceRevision": null,
       "episodes": [
         {
-          "number": 51,
+          "number": 1,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 52,
+          "number": 2,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 53,
+          "number": 3,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 54,
+          "number": 4,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 55,
+          "number": 5,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 56,
+          "number": 6,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 57,
+          "number": 7,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 58,
+          "number": 8,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 59,
+          "number": 9,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 60,
+          "number": 10,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 61,
+          "number": 11,
           "status": "canon",
           "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "numbering-offset-start",
-          "partial-unknownRanges",
           "md-split-available",
-          "md-range-coverage-gap:11",
-          "md-range-out-of-bounds:11",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
@@ -70149,6 +70142,11 @@
           "kind": "filler"
         },
         {
+          "number": 105,
+          "status": "filler",
+          "kind": "filler"
+        },
+        {
           "number": 106,
           "status": "filler",
           "kind": "filler"
@@ -70507,21 +70505,13 @@
           "number": 177,
           "status": "canon",
           "kind": "manga-canon"
-        },
-        {
-          "number": 178,
-          "status": "canon",
-          "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "partial-unknownRanges",
           "md-split-available",
-          "md-range-coverage-gap:1",
-          "md-range-out-of-bounds:1",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
@@ -76796,25 +76786,21 @@
       "sourceRevision": null,
       "episodes": [
         {
-          "number": 53,
+          "number": 1,
           "status": "canon",
           "kind": "manga-canon"
         },
         {
-          "number": 54,
+          "number": 2,
           "status": "canon",
           "kind": "manga-canon"
         }
       ],
-      "updatedAt": "2026-11-08T00:00:00.000Z",
+      "updatedAt": "2026-11-09T00:00:00.000Z",
       "review": {
         "status": "needs-review",
         "flags": [
-          "numbering-offset-start",
-          "partial-unknownRanges",
           "md-split-available",
-          "md-range-coverage-gap:2",
-          "md-range-out-of-bounds:2",
           "episodes-from-md",
           "id-from-anilist-fribb",
           "ids-unverified-upstream",
