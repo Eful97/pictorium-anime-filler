@@ -22,9 +22,20 @@ Changes and third-party material
 
 Attribution when sharing or adapting
 ------------------------------------
-Include the title `pictorium-anime-filler`, a link to this repository or to the
-CC BY-SA 4.0 license, a notice that the work is licensed under CC BY-SA 4.0, and
-an identification of any modifications.
+Reuse is allowed under CC BY-SA 4.0, but you MUST state where the data comes
+from. Every copy, extract, adaptation or derivative database must keep all of
+the following:
+
+- the title `pictorium-anime-filler`;
+- the source URL: https://github.com/Eful97/pictorium-anime-filler;
+- a notice that the work is licensed under CC BY-SA 4.0, with the license link
+  https://creativecommons.org/licenses/by-sa/4.0/ (the legal code is in
+  LICENSE);
+- an identification of any modifications you made.
+
+In italiano: il riuso è consentito, ma devi sempre indicare la provenienza
+(nome del progetto, URL del repository e link alla licenza) e le modifiche
+apportate.
 
 No warranty is provided. The data is a best-effort classification aid and may
 contain errors.

@@ -60,7 +60,22 @@ accepted under CC BY-SA 4.0.
 
 ## License
 
-This database is **CC BY-SA 4.0** (see `LICENSE` and `NOTICE`). Pictorium's
-existing filler snapshot is **CC BY 4.0** and stays a separate file: the two are
-never merged. Episode ranges derive from `anime_filler.md`, whose provenance and
-license are still unpinned; treat this dataset as best-effort, not authoritative.
+This database is **CC BY-SA 4.0** (see `LICENSE` and `NOTICE`).
+
+**You may reuse it, in whole or in part — but you must state where it comes
+from.** Any copy, extract, adaptation or derivative database has to credit the
+source with the project name, the repository URL and the license link:
+
+> Data from **pictorium-anime-filler** —
+> https://github.com/Eful97/pictorium-anime-filler — licensed under
+> CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+> Changes: <describe what you changed>.
+
+In italiano: il database si può usare e riutilizzare, ma **devi indicare da dove
+proviene** — nome del progetto, URL del repository e link alla licenza
+CC BY-SA 4.0, segnalando le eventuali modifiche.
+
+Pictorium's existing filler snapshot is **CC BY 4.0** and stays a separate file:
+the two are never merged. Episode ranges derive from `anime_filler.md`, whose
+provenance and license are still unpinned; treat this dataset as best-effort, not
+authoritative.
